@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="720" height="220" viewBox="0 0 720 220">
+  <title>Pravaha — Project Progress Monitoring System</title>
+  <desc>Clean vector Pravaha logo with transparent background.</desc>
+
+  <!-- Pravaha wave mark -->
+  <g transform="translate(18 20)">
+    <!-- cyan wave -->
+    <path d="M18 55
+             C35 31 62 28 91 43
+             C111 53 127 50 143 38
+             C132 62 108 75 84 67
+             C58 58 39 57 18 73
+             C12 68 12 61 18 55Z"
+          fill="#27BCE7"/>
+
+    <!-- blue wave -->
+    <path d="M13 79
+             C34 57 59 54 88 69
+             C110 80 128 77 145 64
+             C136 87 111 101 86 93
+             C59 84 37 84 15 99
+             C8 94 8 86 13 79Z"
+          fill="#2879D8"/>
+
+    <!-- purple wave -->
+    <path d="M19 103
+             C38 83 61 81 87 94
+             C109 105 127 103 143 91
+             C134 114 109 127 84 119
+             C58 111 38 111 20 124
+             C13 119 13 110 19 103Z"
+          fill="#6947D8"/>
+
+    <!-- small white separation/highlight -->
+    <path d="M29 72
+             C45 59 61 59 78 66
+             C60 62 45 66 31 78Z"
+          fill="#FFFFFF"
+          opacity=".85"/>
+  </g>
+
+  <!-- Wordmark -->
+  <text x="190" y="112"
+        font-family="Inter, Arial, Helvetica, sans-serif"
+        font-size="76"
+        font-weight="800"
+        letter-spacing="-3"
+        fill="#102F62">Pravaha</text>
+
+  <!-- Motto -->
+  <text x="194" y="148"
+        font-family="Inter, Arial, Helvetica, sans-serif"
+        font-size="19"
+        font-weight="500"
+        letter-spacing=".35"
+        fill="#6A7890">Project Progress Monitoring System</text>
+</svg>

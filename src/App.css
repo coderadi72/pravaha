@@ -1,0 +1,1860 @@
+*{margin:0;padding:0;box-sizing:border-box}
+
+html{scroll-behavior:smooth}
+
+body{
+margin:0;
+font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+background:#fff;
+color:#10284d;
+-webkit-font-smoothing:antialiased;
+text-rendering:optimizeLegibility
+}
+
+button,input,textarea,select{font:inherit}
+button{cursor:pointer}
+a{color:inherit}
+
+.app{
+width:100%;
+min-height:100vh;
+overflow-x:hidden
+}
+
+
+/* =========================================================
+   NAVBAR
+========================================================= */
+
+.navbar{
+position:relative;
+z-index:100;
+width:100%;
+height:72px;
+padding:0 5.1%;
+display:flex;
+align-items:center;
+justify-content:space-between;
+background:rgba(255,255,255,.98);
+border-bottom:1px solid #e5ebf3;
+box-shadow:0 2px 14px rgba(24,52,88,.035)
+}
+
+
+/* =========================================================
+   PRAVAHA BRAND
+========================================================= */
+
+.brand{
+width:190px;
+height:54px;
+display:flex;
+align-items:center;
+flex-shrink:0;
+overflow:hidden;
+text-decoration:none
+}
+
+.brand-logo-image{
+display:block;
+width:190px;
+max-width:190px;
+height:auto;
+max-height:52px;
+object-fit:contain;
+object-position:left center
+}
+
+
+/* =========================================================
+   NAVIGATION
+========================================================= */
+
+.nav-links{
+height:100%;
+display:flex;
+align-items:center;
+gap:29px;
+margin-left:auto;
+margin-right:32px
+}
+
+.nav-links a{
+position:relative;
+height:100%;
+display:flex;
+align-items:center;
+color:#1d3557;
+text-decoration:none;
+font-size:11px;
+font-weight:600;
+white-space:nowrap;
+transition:color .2s ease
+}
+
+.nav-links a:hover{color:#176fe3}
+
+.nav-links a::after{
+content:"";
+position:absolute;
+left:0;
+right:0;
+bottom:10px;
+height:2px;
+border-radius:2px;
+background:transparent;
+transition:background .2s ease
+}
+
+.nav-links a.active{color:#0b2f68}
+.nav-links a.active::after{background:#1672e4}
+
+
+/* =========================================================
+   NAVBAR ACTIONS
+========================================================= */
+
+.nav-actions{
+display:flex;
+align-items:center;
+gap:11px;
+flex-shrink:0
+}
+
+.login-btn,.get-started-btn{
+height:37px;
+display:flex;
+align-items:center;
+justify-content:center;
+border-radius:9px;
+font-size:10px;
+font-weight:700;
+transition:transform .2s ease,box-shadow .2s ease,filter .2s ease
+}
+
+.login-btn{
+min-width:86px;
+padding:0 13px;
+gap:7px;
+background:#fff;
+color:#0c2d61;
+border:1px solid #9eb2cc
+}
+
+.login-btn:hover{
+transform:translateY(-1px);
+border-color:#6f8fb7;
+box-shadow:0 5px 15px rgba(20,53,91,.08)
+}
+
+.get-started-btn{
+min-width:128px;
+padding:0 14px;
+gap:11px;
+background:#062d68;
+color:#fff;
+border:1px solid #062d68;
+box-shadow:0 6px 15px rgba(8,46,104,.17)
+}
+
+.get-started-btn:hover{
+transform:translateY(-1px);
+filter:brightness(1.06)
+}
+
+
+/* =========================================================
+   HERO
+========================================================= */
+
+.hero{
+position:relative;
+height:510px;
+min-height:510px;
+overflow:hidden;
+background-image:
+linear-gradient(
+90deg,
+rgba(255,255,255,.95) 0%,
+rgba(255,255,255,.84) 28%,
+rgba(255,255,255,.38) 56%,
+rgba(255,255,255,.03) 100%
+),
+url("/hero-bg.jpg");
+background-size:cover;
+background-position:center center;
+background-repeat:no-repeat
+}
+
+.hero-overlay{
+position:absolute;
+inset:0;
+z-index:1;
+pointer-events:none;
+background:
+linear-gradient(
+180deg,
+rgba(218,235,253,.12),
+rgba(255,218,190,.04) 50%,
+rgba(0,24,53,.03)
+)
+}
+
+
+/* =========================================================
+   HERO CONTENT
+========================================================= */
+
+.hero-content{
+position:absolute;
+z-index:5;
+top:44px;
+left:5.2%;
+width:620px
+}
+
+.hero-badge{
+width:max-content;
+height:35px;
+padding:0 16px;
+display:flex;
+align-items:center;
+gap:9px;
+border-radius:20px;
+background:rgba(255,255,255,.92);
+border:1px solid rgba(255,255,255,.98);
+box-shadow:0 7px 20px rgba(25,56,95,.08);
+color:#213b60;
+font-size:10px;
+white-space:nowrap
+}
+
+.badge-icon{color:#1672df}
+.badge-divider{color:#8d9bb0}
+
+
+/* =========================================================
+   HERO HEADING
+========================================================= */
+
+.hero h1{
+margin-top:23px;
+color:#071c40;
+font-size:50px;
+line-height:.99;
+letter-spacing:-2.5px;
+font-weight:800
+}
+
+.hero h1 span{color:#1972e5}
+
+
+/* =========================================================
+   HERO DESCRIPTION
+========================================================= */
+
+.hero-description{
+margin-top:20px;
+color:#29425f;
+font-size:16px;
+line-height:1.45;
+font-weight:500
+}
+
+
+/* =========================================================
+   HERO TAGS
+========================================================= */
+
+.hero-tags{
+margin-top:23px;
+display:flex;
+align-items:center;
+flex-wrap:wrap;
+gap:8px
+}
+
+.hero-tag{
+height:34px;
+padding:0 12px;
+display:flex;
+align-items:center;
+gap:7px;
+border-radius:18px;
+background:rgba(255,255,255,.92);
+border:1px solid rgba(255,255,255,.98);
+box-shadow:0 4px 12px rgba(26,56,94,.08);
+color:#243b5b;
+font-size:9px;
+font-weight:600;
+white-space:nowrap
+}
+
+.tag-icon.blue{color:#1473df}
+.tag-icon.purple{color:#6845df}
+.tag-icon.cyan{color:#1289a6}
+
+
+/* =========================================================
+   HERO BUTTONS
+========================================================= */
+
+.hero-buttons{
+margin-top:24px;
+display:flex;
+align-items:center;
+gap:16px
+}
+
+.primary-btn,.secondary-btn{
+height:51px;
+display:flex;
+align-items:center;
+justify-content:center;
+border-radius:10px;
+font-size:13px;
+font-weight:700;
+transition:transform .2s ease,filter .2s ease,box-shadow .2s ease
+}
+
+.primary-btn{
+width:198px;
+gap:13px;
+background:#062d68;
+color:#fff;
+border:1px solid #062d68;
+box-shadow:0 10px 22px rgba(6,43,103,.2)
+}
+
+.primary-btn:hover{
+transform:translateY(-2px);
+filter:brightness(1.06)
+}
+
+.secondary-btn{
+width:205px;
+gap:10px;
+background:rgba(255,255,255,.82);
+color:#0b2c5d;
+border:1px solid #8fa5c2
+}
+
+.secondary-btn:hover{
+transform:translateY(-2px);
+box-shadow:0 7px 18px rgba(29,59,94,.08)
+}
+
+.play-icon{
+width:23px;
+height:23px;
+display:flex;
+align-items:center;
+justify-content:center;
+padding-left:2px;
+border:2px solid #0d4d9f;
+border-radius:50%;
+color:#0d4d9f
+}
+
+
+/* =========================================================
+   DASHBOARD PREVIEW
+========================================================= */
+
+.dashboard-preview{
+position:absolute;
+z-index:6;
+top:58px;
+right:5.1%;
+width:650px;
+height:300px;
+display:flex;
+overflow:hidden;
+border-radius:13px;
+background:#fff;
+border:1px solid rgba(215,225,237,.95);
+box-shadow:0 20px 50px rgba(21,48,82,.17)
+}
+
+.preview-sidebar{
+width:139px;
+flex-shrink:0;
+padding:17px 9px;
+background:#f9fbff;
+border-right:1px solid #e3eaf2
+}
+
+.preview-brand{
+height:29px;
+padding:0 7px;
+margin-bottom:11px;
+display:flex;
+align-items:center;
+gap:6px;
+color:#0a2b5d
+}
+
+.preview-brand strong{
+font-size:12px;
+font-weight:800
+}
+
+.menu-icon{
+margin-left:auto;
+color:#788ba5
+}
+
+.mini-logo{
+position:relative;
+width:23px;
+height:21px;
+flex-shrink:0
+}
+
+.mini-logo span{
+position:absolute;
+left:0;
+width:20px;
+height:6px;
+border-radius:50%;
+transform:rotate(-16deg)
+}
+
+.mini-logo span:nth-child(1){
+top:1px;
+background:#38bde7
+}
+
+.mini-logo span:nth-child(2){
+top:6px;
+background:#2478dc
+}
+
+.mini-logo span:nth-child(3){
+top:11px;
+background:#6747d7
+}
+
+
+/* =========================================================
+   PREVIEW NAV
+========================================================= */
+
+.preview-nav{
+height:37px;
+padding:0 9px;
+display:flex;
+align-items:center;
+gap:9px;
+border-radius:8px;
+color:#263e62;
+font-size:9px;
+font-weight:500
+}
+
+.preview-nav svg{flex-shrink:0}
+
+.preview-nav.active{
+background:#dbeeff;
+color:#1265ce;
+font-weight:700
+}
+
+
+/* =========================================================
+   DASHBOARD MAIN
+========================================================= */
+
+.preview-main{
+flex:1;
+min-width:0;
+padding:17px 16px;
+background:#fff
+}
+
+.preview-top{
+display:flex;
+align-items:center;
+justify-content:space-between;
+gap:10px
+}
+
+.preview-title{
+color:#142b50;
+font-size:12px;
+font-weight:700
+}
+
+.preview-filters{
+display:flex;
+gap:6px
+}
+
+.preview-filters button{
+height:24px;
+padding:0 8px;
+display:flex;
+align-items:center;
+gap:4px;
+background:#fff;
+border:1px solid #e0e7f0;
+border-radius:6px;
+color:#50627d;
+font-size:7px
+}
+
+
+/* =========================================================
+   DASHBOARD STATS
+========================================================= */
+
+.stats-row{
+margin-top:12px;
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:8px
+}
+
+.stat-card{
+min-height:65px;
+padding:9px;
+border-radius:9px;
+background:linear-gradient(145deg,#f4fbff,#edf7fd);
+border:1px solid #e0edf7
+}
+
+.stat-card.warning{
+background:#fff8f7;
+border-color:#f5dfdc
+}
+
+.stat-number{
+color:#0c2956;
+font-size:18px;
+line-height:1;
+font-weight:800
+}
+
+.stat-label{
+margin-top:5px;
+color:#536985;
+font-size:7px
+}
+
+.stat-up,.stat-down{
+margin-top:3px;
+font-size:6.5px;
+font-weight:700
+}
+
+.stat-up{color:#13a17b}
+.stat-down{color:#e34c4c}
+
+
+/* =========================================================
+   DASHBOARD LOWER CONTENT
+========================================================= */
+
+.preview-content-row{
+margin-top:11px;
+display:grid;
+grid-template-columns:1.05fr 1fr;
+gap:9px
+}
+
+.schedule-card,.activity-card{
+height:204px;
+padding:12px;
+background:#fff;
+border:1px solid #e4eaf2;
+border-radius:9px
+}
+
+.card-heading{
+color:#172d51;
+font-size:8px;
+font-weight:700
+}
+
+
+/* =========================================================
+   SCHEDULE CHART
+========================================================= */
+
+.chart-header{
+margin-top:14px;
+margin-bottom:5px;
+display:flex;
+justify-content:space-between;
+color:#74839a;
+font-size:6.5px
+}
+
+.chart-row{
+height:25px;
+display:flex;
+align-items:center
+}
+
+.chart-row>span{
+width:75px;
+color:#63738c;
+font-size:6.5px
+}
+
+.bar-area{
+position:relative;
+flex:1;
+height:10px;
+background:repeating-linear-gradient(
+90deg,
+transparent 0,
+transparent 28px,
+#edf0f5 29px,
+#edf0f5 30px
+)
+}
+
+.bar{
+height:9px;
+border-radius:3px
+}
+
+.bar-blue{background:#4696ed}
+.bar-green{background:#53c5a4}
+.bar-orange{background:#f49b48}
+.bar-purple{background:#9c6ce8}
+.bar-red{background:#eb6c69}
+
+.bar.one{
+width:56px;
+margin-left:5px
+}
+
+.bar.two{
+width:51px;
+margin-left:30px
+}
+
+.bar.three{
+width:55px;
+margin-left:56px
+}
+
+.bar.four{
+width:45px;
+margin-left:74px
+}
+
+.bar.five{
+width:44px;
+margin-left:93px
+}
+
+.chart-months{
+margin-top:3px;
+margin-left:75px;
+display:flex;
+justify-content:space-between;
+color:#8190a5;
+font-size:6.5px
+}
+
+
+/* =========================================================
+   ACTIVITY CARD
+========================================================= */
+
+.activity-heading{
+display:flex;
+align-items:center;
+justify-content:space-between
+}
+
+.activity-heading>span:last-child{
+color:#1471db;
+font-size:6.5px
+}
+
+.activity-item{
+min-height:39px;
+display:flex;
+align-items:center;
+gap:7px;
+border-bottom:1px solid #eef1f5
+}
+
+.activity-item:last-child{border-bottom:none}
+
+.activity-icon{
+width:22px;
+height:22px;
+flex-shrink:0;
+display:flex;
+align-items:center;
+justify-content:center;
+border-radius:6px
+}
+
+.blue-circle{
+background:#e5f2ff;
+color:#2581e7
+}
+
+.green-circle{
+background:#e5faf3;
+color:#16a37d
+}
+
+.orange-circle{
+background:#fff0e4;
+color:#ed8b39
+}
+
+.red-circle{
+background:#ffe8e7;
+color:#e3514d
+}
+
+.activity-info{
+flex:1;
+min-width:0
+}
+
+.activity-info strong{
+display:block;
+overflow:hidden;
+color:#253957;
+font-size:6.8px;
+font-weight:600;
+white-space:nowrap;
+text-overflow:ellipsis
+}
+
+.activity-info small{
+display:block;
+margin-top:3px;
+color:#7c8ba0;
+font-size:5.8px
+}
+
+.matched{
+min-width:37px;
+padding:4px;
+border-radius:6px;
+background:#e7faf4;
+color:#13a17b;
+font-size:5.8px;
+line-height:1.25;
+text-align:center;
+font-weight:700
+}
+
+.review-label{
+padding:4px 6px;
+border-radius:6px;
+background:#ffe9e7;
+color:#e84d4d;
+font-size:6px;
+font-weight:700
+}
+
+
+/* =========================================================
+   FEATURE CARDS
+========================================================= */
+
+.features-section{
+width:100%;
+min-height:165px;
+padding:24px 5.1%;
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:14px;
+background:#f5f8fc
+}
+
+.feature-card{
+min-height:118px;
+padding:19px 16px;
+display:flex;
+align-items:flex-start;
+gap:14px;
+background:rgba(255,255,255,.97);
+border:1px solid #e2eaf3;
+border-radius:10px;
+box-shadow:0 5px 18px rgba(33,62,99,.04);
+transition:transform .25s ease,box-shadow .25s ease
+}
+
+.feature-card:hover{
+transform:translateY(-3px);
+box-shadow:0 12px 25px rgba(33,62,99,.09)
+}
+
+.feature-icon{
+width:45px;
+height:45px;
+min-width:45px;
+display:flex;
+align-items:center;
+justify-content:center;
+border-radius:11px
+}
+
+.blue-feature{
+color:#1671df;
+background:#e6f2ff
+}
+
+.purple-feature{
+color:#6744dd;
+background:#eeeaff
+}
+
+.orange-feature{
+color:#f18a24;
+background:#fff0df
+}
+
+.cyan-feature{
+color:#138aa7;
+background:#e3f7fb
+}
+
+.feature-card h3{
+margin-top:1px;
+color:#102b54;
+font-size:13px;
+line-height:1.25;
+font-weight:700
+}
+
+.feature-card p{
+margin-top:9px;
+color:#63748d;
+font-size:9px;
+line-height:1.48
+}
+
+
+/* =========================================================
+   DARK ANALYTICS
+========================================================= */
+
+.analytics-section{
+position:relative;
+min-height:202px;
+overflow:hidden;
+background:#06182f
+}
+
+.analytics-background{
+position:absolute;
+inset:0;
+background:
+radial-gradient(
+circle at 12% 70%,
+rgba(22,73,117,.48),
+transparent 32%
+),
+linear-gradient(
+90deg,
+rgba(3,20,42,.96),
+rgba(4,24,48,.94)
+)
+}
+
+.analytics-content{
+position:relative;
+z-index:2;
+width:100%;
+padding:33px 5.1%;
+display:flex;
+align-items:center;
+justify-content:space-between;
+gap:35px
+}
+
+.analytics-text{width:42%}
+
+.analytics-eyebrow{
+margin-bottom:8px;
+color:#dce8f8;
+font-size:8px;
+font-weight:600;
+letter-spacing:.5px
+}
+
+.analytics-text h2{
+color:#fff;
+font-size:25px;
+line-height:1.08;
+letter-spacing:-.7px;
+font-weight:800
+}
+
+.analytics-text h2 span{color:#247ce6}
+
+.analytics-text p{
+max-width:390px;
+margin-top:11px;
+color:#aabbd2;
+font-size:9px;
+line-height:1.5
+}
+
+.built-for{
+margin-top:16px;
+display:flex;
+align-items:center
+}
+
+.avatar{
+width:23px;
+height:23px;
+display:flex;
+align-items:center;
+justify-content:center;
+margin-right:-5px;
+border:2px solid #081a31;
+border-radius:50%;
+background:#e8eef6;
+color:#193b68;
+font-size:7px;
+font-weight:800
+}
+
+.built-for span{
+margin-left:13px;
+color:#d1dbea;
+font-size:7px;
+font-weight:500
+}
+
+.analytics-stats{
+width:56%;
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:10px
+}
+
+.analytics-stat{
+min-height:128px;
+padding:16px 12px;
+display:flex;
+flex-direction:column;
+align-items:center;
+justify-content:center;
+border:1px solid rgba(111,148,190,.25);
+border-radius:9px;
+background:rgba(18,39,68,.72);
+text-align:center;
+transition:transform .25s ease,border-color .25s ease
+}
+
+.analytics-stat:hover{
+transform:translateY(-3px);
+border-color:rgba(79,140,219,.45)
+}
+
+.analytics-icon{
+margin-bottom:7px;
+display:flex;
+align-items:center;
+justify-content:center;
+color:#5797ee
+}
+
+.analytics-stat strong{
+color:#fff;
+font-size:24px;
+line-height:1;
+font-weight:800
+}
+
+.analytics-stat>span{
+margin-top:6px;
+color:#d5dfed;
+font-size:7px
+}
+
+.analytics-stat small{
+margin-top:8px;
+color:#2ed1a4;
+font-size:6px;
+font-weight:600
+}
+
+
+/* =========================================================
+   COMMON SECTIONS
+========================================================= */
+
+.section-heading,.memory-header{
+max-width:680px;
+margin-left:auto;
+margin-right:auto;
+text-align:center
+}
+
+.section-eyebrow{
+display:block;
+color:#1970e6;
+font-size:9px;
+font-weight:700;
+letter-spacing:1px
+}
+
+
+/* =========================================================
+   HOW PRAVAHA WORKS
+========================================================= */
+
+.how-section{
+position:relative;
+padding:82px 5.1% 88px;
+background:#f7faff
+}
+
+.section-heading h2,.memory-header h2{
+margin-top:10px;
+color:#0a2349;
+font-size:32px;
+line-height:1.15;
+letter-spacing:-1px;
+font-weight:800
+}
+
+.section-heading h2 span,.memory-header h2 span{
+color:#176fe3
+}
+
+.section-heading p{
+max-width:570px;
+margin:14px auto 0;
+color:#657791;
+font-size:13px;
+line-height:1.6
+}
+
+
+/* =========================================================
+   WORKFLOW
+========================================================= */
+
+.workflow{
+position:relative;
+max-width:1180px;
+margin:62px auto 0;
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:25px
+}
+
+.workflow-line{
+position:absolute;
+top:27px;
+left:11%;
+right:11%;
+height:1px;
+background:#d9e5f2
+}
+
+.workflow-step{
+position:relative;
+z-index:2;
+text-align:center;
+transition:transform .25s ease
+}
+
+.workflow-step:hover{transform:translateY(-3px)}
+
+.workflow-number{
+width:54px;
+height:54px;
+margin:0 auto;
+display:flex;
+align-items:center;
+justify-content:center;
+border-radius:50%;
+background:#fff;
+border:1px solid #d8e5f3;
+box-shadow:0 7px 20px rgba(31,66,105,.08);
+color:#176fe3;
+font-size:11px;
+font-weight:800
+}
+
+.workflow-icon{
+width:45px;
+height:45px;
+margin:18px auto 16px;
+display:flex;
+align-items:center;
+justify-content:center;
+border-radius:12px
+}
+
+.blue-workflow{
+background:#e7f2ff;
+color:#1472df
+}
+
+.purple-workflow{
+background:#eeeaff;
+color:#6845dd
+}
+
+.orange-workflow{
+background:#fff0df;
+color:#ef8b28
+}
+
+.cyan-workflow{
+background:#e5f8fb;
+color:#138ba8
+}
+
+.workflow-step h3{
+color:#142e55;
+font-size:15px;
+font-weight:700
+}
+
+.workflow-step p{
+max-width:230px;
+margin:10px auto 0;
+color:#6c7d94;
+font-size:10px;
+line-height:1.55
+}
+
+.workflow-tags{
+margin-top:13px;
+display:flex;
+justify-content:center;
+gap:5px;
+flex-wrap:wrap
+}
+
+.workflow-tags span{
+padding:5px 8px;
+border-radius:12px;
+background:#fff;
+border:1px solid #e3eaf2;
+color:#647690;
+font-size:7px;
+font-weight:600
+}
+
+
+/* =========================================================
+   INTELLIGENCE
+========================================================= */
+
+.intelligence-section{
+padding:85px 5.1%;
+background:#fff
+}
+
+.intelligence-content{
+max-width:1180px;
+margin:auto;
+display:grid;
+grid-template-columns:.9fr 1.1fr;
+gap:80px;
+align-items:center
+}
+
+.intelligence-text h2{
+margin-top:11px;
+color:#0a2349;
+font-size:34px;
+line-height:1.12;
+letter-spacing:-1.2px;
+font-weight:800
+}
+
+.intelligence-text h2 span{color:#176fe3}
+
+.intelligence-text>p{
+max-width:500px;
+margin-top:18px;
+color:#63758e;
+font-size:13px;
+line-height:1.65
+}
+
+.intelligence-points{
+margin-top:25px;
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:13px 20px
+}
+
+.intelligence-points div{
+display:flex;
+align-items:center;
+gap:9px;
+color:#263e61;
+font-size:10px;
+font-weight:600
+}
+
+.point-check{
+width:21px;
+height:21px;
+display:flex;
+align-items:center;
+justify-content:center;
+flex-shrink:0;
+border-radius:50%;
+background:#e5f7f1;
+color:#12a27c;
+font-size:10px
+}
+
+
+/* =========================================================
+   INTELLIGENCE PANEL
+========================================================= */
+
+.intelligence-panel{
+padding:23px;
+border:1px solid #dfe8f2;
+border-radius:15px;
+background:#fbfdff;
+box-shadow:0 18px 40px rgba(31,62,101,.08)
+}
+
+.panel-header{
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding-bottom:17px;
+border-bottom:1px solid #e8eef5
+}
+
+.panel-header strong{
+display:block;
+color:#142e55;
+font-size:14px
+}
+
+.panel-header small{
+display:block;
+margin-top:4px;
+color:#8492a7;
+font-size:9px
+}
+
+.live-status{
+display:flex;
+align-items:center;
+gap:6px;
+padding:6px 9px;
+border-radius:15px;
+background:#e7faf4;
+color:#129b78;
+font-size:7px;
+font-weight:700
+}
+
+.live-status i{
+width:6px;
+height:6px;
+border-radius:50%;
+background:#14b589
+}
+
+
+/* =========================================================
+   MATCH ROWS
+========================================================= */
+
+.match-row{
+min-height:68px;
+display:flex;
+align-items:center;
+gap:12px;
+border-bottom:1px solid #edf1f5
+}
+
+.match-icon{
+width:34px;
+height:34px;
+display:flex;
+align-items:center;
+justify-content:center;
+flex-shrink:0;
+border-radius:9px;
+background:#e7f2ff;
+color:#1671dd;
+font-size:11px;
+font-weight:800
+}
+
+.match-icon.green{
+background:#e7faf4;
+color:#12a07c
+}
+
+.match-icon.orange{
+background:#fff0e2;
+color:#eb8a31
+}
+
+.match-info{
+flex:1;
+min-width:0
+}
+
+.match-info strong{
+display:block;
+color:#273d5e;
+font-size:9px
+}
+
+.match-info span{
+display:block;
+margin-top:5px;
+color:#8795a8;
+font-size:7px
+}
+
+.confidence{
+min-width:48px;
+padding:6px;
+border-radius:7px;
+background:#e8faf4;
+color:#159d79;
+text-align:center;
+font-size:10px;
+font-weight:800
+}
+
+.confidence small{
+display:block;
+margin-top:2px;
+font-size:6px
+}
+
+
+/* =========================================================
+   UNMATCHED
+========================================================= */
+
+.unmatched-box{
+margin-top:15px;
+padding:12px;
+display:flex;
+align-items:center;
+gap:10px;
+border-radius:9px;
+background:#fff5f4;
+border:1px solid #f4dfdd
+}
+
+.unmatched-icon{
+width:27px;
+height:27px;
+display:flex;
+align-items:center;
+justify-content:center;
+flex-shrink:0;
+border-radius:50%;
+background:#ffe3e0;
+color:#e6544d;
+font-size:11px;
+font-weight:800
+}
+
+.unmatched-box>div:nth-child(2){flex:1}
+
+.unmatched-box strong{
+display:block;
+color:#653332;
+font-size:8px
+}
+
+.unmatched-box span{
+display:block;
+margin-top:3px;
+color:#9d7371;
+font-size:7px
+}
+
+.unmatched-box button{
+padding:7px 10px;
+border:0;
+border-radius:6px;
+background:#e95b54;
+color:#fff;
+font-size:7px;
+font-weight:700
+}
+
+
+/* =========================================================
+   PROJECT KNOWLEDGE
+========================================================= */
+
+.memory-section{
+padding:82px 5.1%;
+background:#f6f9fd
+}
+
+.memory-header p{
+margin-top:13px;
+color:#697b93;
+font-size:13px;
+line-height:1.6
+}
+
+.memory-grid{
+max-width:1180px;
+margin:50px auto 0;
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:18px
+}
+
+.memory-card{
+min-height:245px;
+padding:27px;
+background:#fff;
+border:1px solid #e1e9f2;
+border-radius:13px;
+box-shadow:0 7px 25px rgba(33,65,103,.05);
+transition:transform .25s ease,box-shadow .25s ease
+}
+
+.memory-card:hover{
+transform:translateY(-4px);
+box-shadow:0 14px 30px rgba(33,65,103,.1)
+}
+
+.memory-card-icon{
+width:46px;
+height:46px;
+display:flex;
+align-items:center;
+justify-content:center;
+border-radius:11px;
+background:#e7f2ff;
+color:#1472df;
+font-size:20px
+}
+
+.purple-memory{
+background:#eeeaff;
+color:#6946df
+}
+
+.green-memory{
+background:#e6faf4;
+color:#149d79
+}
+
+.memory-card h3{
+margin-top:20px;
+color:#142e55;
+font-size:16px
+}
+
+.memory-card p{
+margin-top:10px;
+color:#718198;
+font-size:10px;
+line-height:1.55
+}
+
+.memory-value{
+margin-top:22px;
+color:#176fe3;
+font-size:22px;
+font-weight:800
+}
+
+.memory-value small{
+display:block;
+margin-top:4px;
+color:#8a98aa;
+font-size:7px;
+font-weight:500
+}
+
+
+/* =========================================================
+   FINAL CTA
+========================================================= */
+
+.final-cta{
+padding:90px 5.1%;
+background:linear-gradient(135deg,#eaf5ff,#f7fbff);
+text-align:center
+}
+
+.cta-content{
+max-width:700px;
+margin:auto
+}
+
+.final-cta h2{
+margin-top:12px;
+color:#09264e;
+font-size:38px;
+line-height:1.1;
+letter-spacing:-1.2px;
+font-weight:800
+}
+
+.final-cta h2 span{color:#176fe3}
+
+.final-cta p{
+max-width:560px;
+margin:16px auto 0;
+color:#687b93;
+font-size:13px;
+line-height:1.6
+}
+
+.cta-buttons{
+margin-top:28px;
+display:flex;
+justify-content:center;
+gap:13px
+}
+
+.cta-primary,.cta-secondary{
+height:48px;
+padding:0 23px;
+border-radius:9px;
+font-size:11px;
+font-weight:700
+}
+
+.cta-primary{
+display:flex;
+align-items:center;
+justify-content:center;
+gap:10px;
+background:#062c68;
+color:#fff;
+border:1px solid #062c68;
+box-shadow:0 8px 18px rgba(7,44,103,.16);
+transition:transform .2s ease,filter .2s ease
+}
+
+.cta-primary:hover{
+transform:translateY(-2px);
+filter:brightness(1.06)
+}
+
+.cta-secondary{
+background:#fff;
+color:#0a2d60;
+border:1px solid #9cafc8;
+transition:transform .2s ease,box-shadow .2s ease
+}
+
+.cta-secondary:hover{
+transform:translateY(-2px);
+box-shadow:0 7px 18px rgba(29,59,94,.08)
+}
+
+
+/* =========================================================
+   FOOTER
+   TRANSPARENT PRAVAHA LOGO
+========================================================= */
+
+.footer{
+width:100%;
+background:#031426;
+color:#fff
+}
+
+.footer-main{
+width:100%;
+display:grid;
+grid-template-columns:1.65fr 1fr 1fr 1fr 1.15fr;
+align-items:start;
+gap:55px;
+padding:64px 5.1% 58px
+}
+
+
+/* =========================================================
+   FOOTER BRAND
+========================================================= */
+
+.footer-brand{
+display:flex;
+align-items:center;
+min-width:0
+}
+
+.footer-pravaha{
+width:205px;
+height:88px;
+display:flex;
+align-items:center;
+justify-content:flex-start;
+overflow:visible;
+flex-shrink:0
+}
+
+/*
+  NEW TRANSPARENT PNG
+
+  public/pravaha-logo-transparent.png
+
+  No white background.
+  No blend mode.
+*/
+
+.footer-logo-image{
+display:block;
+width:190px !important;
+height:auto !important;
+max-width:190px !important;
+max-height:88px !important;
+object-fit:contain;
+object-position:left center;
+flex-shrink:0;
+background:transparent !important;
+mix-blend-mode:normal !important
+}
+
+
+/*
+  Old SIH / Oil India section is no longer needed
+  because footer now uses only:
+  PRAVAHA logo + name + motto.
+*/
+
+.footer-divider,
+.sih-brand{
+display:none !important
+}
+
+
+/* =========================================================
+   FOOTER COLUMNS
+========================================================= */
+
+.footer-column{
+display:flex;
+flex-direction:column;
+align-items:flex-start
+}
+
+.footer-column h4{
+margin:0 0 22px;
+color:#fff;
+font-size:15px;
+line-height:1.3;
+font-weight:750
+}
+
+.footer-column a{
+display:block;
+margin-bottom:14px;
+color:rgba(255,255,255,.72);
+font-size:13px;
+line-height:1.4;
+font-weight:550;
+text-decoration:none;
+transition:color .2s ease,transform .2s ease
+}
+
+.footer-column a:hover{
+color:#fff;
+transform:translateX(2px)
+}
+
+
+/* =========================================================
+   CONNECT WITH US
+========================================================= */
+
+.footer-column.connect{
+align-items:flex-start
+}
+
+.social-icons{
+display:flex;
+align-items:center;
+gap:13px
+}
+
+.social-icons button{
+width:44px;
+height:44px;
+display:flex;
+align-items:center;
+justify-content:center;
+padding:0;
+border:1px solid rgba(255,255,255,.28);
+border-radius:50%;
+background:transparent;
+color:rgba(255,255,255,.88);
+font-size:13px;
+font-weight:700;
+transition:
+background .2s ease,
+border-color .2s ease,
+color .2s ease,
+transform .2s ease
+}
+
+.social-icons button:hover{
+background:rgba(255,255,255,.08);
+border-color:rgba(255,255,255,.55);
+color:#fff;
+transform:translateY(-2px)
+}
+
+
+/* =========================================================
+   FOOTER BOTTOM
+========================================================= */
+
+.footer-bottom{
+width:100%;
+min-height:76px;
+padding:0 5.1%;
+display:flex;
+align-items:center;
+justify-content:space-between;
+gap:30px;
+border-top:1px solid rgba(255,255,255,.12)
+}
+
+.footer-bottom span{
+color:rgba(255,255,255,.72);
+font-size:12px;
+line-height:1.5;
+font-weight:550
+}
+
+.footer-bottom span:last-child{
+text-align:right
+}
+
+
+/* =========================================================
+   RESPONSIVE — 1100px
+========================================================= */
+
+@media(max-width:1100px){
+
+.footer-main{
+grid-template-columns:1.5fr 1fr 1fr 1fr;
+gap:40px
+}
+
+.footer-column.connect{
+grid-column:1/-1;
+margin-top:4px
+}
+
+.footer-pravaha{
+width:190px
+}
+
+.footer-logo-image{
+width:180px !important;
+max-width:180px !important
+}
+
+}
+
+
+/* =========================================================
+   RESPONSIVE — 800px
+========================================================= */
+
+@media(max-width:800px){
+
+.footer-main{
+grid-template-columns:repeat(2,1fr);
+gap:40px 30px;
+padding:55px 6% 45px
+}
+
+.footer-brand{
+grid-column:1/-1
+}
+
+.footer-pravaha{
+width:190px;
+height:80px
+}
+
+.footer-logo-image{
+width:180px !important;
+max-width:180px !important
+}
+
+.footer-column.connect{
+grid-column:auto;
+margin-top:0
+}
+
+.footer-bottom{
+min-height:auto;
+padding:22px 6%;
+flex-direction:column;
+align-items:flex-start;
+gap:10px
+}
+
+.footer-bottom span:last-child{
+text-align:left
+}
+
+}
+
+
+/* =========================================================
+   RESPONSIVE — 520px
+========================================================= */
+
+@media(max-width:520px){
+
+.footer-main{
+grid-template-columns:1fr;
+gap:32px;
+padding:48px 7% 40px
+}
+
+.footer-brand{
+grid-column:auto
+}
+
+.footer-pravaha{
+width:170px;
+height:75px
+}
+
+.footer-logo-image{
+width:160px !important;
+max-width:160px !important
+}
+
+.footer-column.connect{
+grid-column:auto
+}
+
+.footer-bottom{
+padding:20px 7%
+}
+
+.footer-bottom span{
+font-size:11px
+}
+
+}
