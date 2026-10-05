@@ -1,0 +1,71 @@
+{
+  "head": "0003_schedule_ingestion",
+  "existingRowsPreserved": true,
+  "tables": {
+    "organizations": {
+      "rows": 1,
+      "sha256": "bde2e91edee67e207c9b6c9c2b349b76e44f253d4ae4ae219546ba366c5775b5"
+    },
+    "users": {
+      "rows": 13,
+      "sha256": "19dd736987a47a790b2bb9fe8844b8b6a0f947b3ee56274a83be7e6865f0228e"
+    },
+    "projects": {
+      "rows": 4,
+      "sha256": "4d986cd95bd807a9390d570dc02d6c2260c8c653fd249a89b8d31dad78ce2100"
+    },
+    "project_manager_assignments": {
+      "rows": 1,
+      "sha256": "25a9c0cb7600067c9fd3e3225a6fae2b90d209950c223d9acf192427e23f5fdf"
+    },
+    "teams": {
+      "rows": 6,
+      "sha256": "009135a46f5536ea12cedf3552280928583d57980a302b3a3e420f89645fa85b"
+    },
+    "team_leader_assignments": {
+      "rows": 1,
+      "sha256": "4fd6c264f4a158923395fe4ae7731b714d69ac8a3a80a9375d8dfeddcbcaac11"
+    },
+    "schedule_activities": {
+      "rows": 10,
+      "sha256": "67a10ebf730fc19d7f5ec8e19074d9d5094a8d90a0340cd955d585148b879239"
+    },
+    "field_updates": {
+      "rows": 7,
+      "sha256": "e03abf64832bff081fbb013b2cadf3ffeea1f3496c3c8d970aa73f676a0f4f71"
+    },
+    "activity_matches": {
+      "rows": 7,
+      "sha256": "eed92f9198ef81e830ee8555f93f27f3fb93f974297db494fe8d3a9cba1103c1"
+    },
+    "reviews": {
+      "rows": 6,
+      "sha256": "f55dc3846d369126838126a8ad3be88403d97c345c3095206fccdad373f6075f"
+    },
+    "review_history": {
+      "rows": 14,
+      "sha256": "d19d02bb35a1c452f2e1e03873aef3d9745cbb98be8d6b31e1ed3d362ecaeffa"
+    },
+    "schedule_activity_contributions": {
+      "rows": 1,
+      "sha256": "1a1b9ea0299a17625ccec3c6e6d85b6e6c544174a6b6c963d221e8e1af05f1c3"
+    },
+    "audit_events": {
+      "rows": 27,
+      "sha256": "02ce6dd877a5c8bd32bc78cb62dd48b65a16f6d252b45e2f4896fc5209dd865c"
+    },
+    "sessions": {
+      "rows": 1,
+      "sha256": "9b61d280fd620bba9760fc0af436307ed01ab720936848165336aba9c7371584"
+    },
+    "legacy_schema_migrations": {
+      "rows": 5,
+      "sha256": "ee0f8c5f7758c9c91fe5a63f56f79a2041dfb2e2eadc3311f2bd68183b7d1542"
+    },
+    "execution_warnings": {
+      "rows": 13,
+      "sha256": "990b32596e706f7bbe6931c29a70d3c387364f80e9c36df873e6ce92ba9a5f1b"
+    }
+  },
+  "schemaCheck": "PASS"
+}

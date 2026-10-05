@@ -1,0 +1,18 @@
+{
+  "result": "PASS",
+  "checks": [
+    "Admin PM TL logins",
+    "startup database and migration health",
+    "CSV preview transactional import baseline version graph",
+    "XLSX import immutable versions and comparison",
+    "structured TL observation persisted attachment honest providers",
+    "PM actuals negative float transitive impact search memory authorization",
+    "TL feedback and Admin audit",
+    "real backend restart sessions versions dependencies attachments actuals persist",
+    "logout revocation"
+  ],
+  "fieldUpdateId": "FU-c2332283-80a5-4daf-9478-3a1865ace9b8",
+  "attachmentId": "ATT-6f9f3bf2-d1ec-4abe-8b59-2d76f277078b",
+  "currentVersionId": "SV-5cca0c24-b8e9-4a7b-8cc0-ea50cb7a30e2",
+  "actualProgress": 83
+}

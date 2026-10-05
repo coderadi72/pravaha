@@ -1,0 +1,83 @@
+{
+  "backupPath": "D:\\Coding\\pravaha\\database\\legacy\\pravaha-pre-postgresql-35d59be5576e454d8dc1f77bc31f654e.sqlite",
+  "tables": {
+    "organizations": {
+      "sqlite": 1,
+      "postgresql": 1,
+      "difference": 0
+    },
+    "users": {
+      "sqlite": 13,
+      "postgresql": 13,
+      "difference": 0
+    },
+    "projects": {
+      "sqlite": 4,
+      "postgresql": 4,
+      "difference": 0
+    },
+    "project_manager_assignments": {
+      "sqlite": 1,
+      "postgresql": 1,
+      "difference": 0
+    },
+    "teams": {
+      "sqlite": 6,
+      "postgresql": 6,
+      "difference": 0
+    },
+    "schedule_activities": {
+      "sqlite": 10,
+      "postgresql": 10,
+      "difference": 0
+    },
+    "field_updates": {
+      "sqlite": 7,
+      "postgresql": 7,
+      "difference": 0
+    },
+    "activity_matches": {
+      "sqlite": 7,
+      "postgresql": 7,
+      "difference": 0
+    },
+    "reviews": {
+      "sqlite": 6,
+      "postgresql": 6,
+      "difference": 0
+    },
+    "review_history": {
+      "sqlite": 14,
+      "postgresql": 14,
+      "difference": 0
+    },
+    "schedule_activity_contributions": {
+      "sqlite": 1,
+      "postgresql": 1,
+      "difference": 0
+    },
+    "audit_events": {
+      "sqlite": 10,
+      "postgresql": 10,
+      "difference": 0
+    },
+    "sessions": {
+      "sqlite": 6,
+      "postgresql": 6,
+      "difference": 0
+    },
+    "schema_migrations": {
+      "sqlite": 5,
+      "postgresql": 5,
+      "difference": 0
+    },
+    "team_leader_assignments": {
+      "sqlite": 1,
+      "postgresql": 1,
+      "difference": 0,
+      "derivedFrom": "teams.team_leader_id"
+    }
+  },
+  "passwords": "Argon2id hashes preserved; legacy format supported",
+  "sessions": "Opaque session token hashes and expiration preserved"
+}

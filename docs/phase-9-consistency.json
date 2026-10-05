@@ -1,0 +1,15 @@
+{
+  "result": "PASS",
+  "checks": {
+    "originalRowsPreserved": true,
+    "scheduleTeamProjectMismatch": 0,
+    "matchProjectMismatch": 0,
+    "contributionProjectMismatch": 0,
+    "disabledPMAssignments": 0,
+    "disabledTLAssignments": 0,
+    "unexpectedRoles": 0,
+    "invalidForeignKeys": 0,
+    "head": "0003_schedule_ingestion",
+    "foreignKeyCount": 39
+  }
+}

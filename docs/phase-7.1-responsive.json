@@ -1,0 +1,33 @@
+{
+  "screens": [
+    "Home",
+    "Admin",
+    "Project Manager",
+    "Team Leader"
+  ],
+  "widths": [
+    1440,
+    1024,
+    768,
+    518
+  ],
+  "documentWidths": [
+    1431,
+    1015,
+    759,
+    510
+  ],
+  "pageWideOverflow": false,
+  "homeLoginButtonsInsideViewportAtAllWidths": true,
+  "managementButtonRightEdges": [
+    1385.4125,
+    982.725,
+    734.9125,
+    493.3
+  ],
+  "mobileLoginAfterFix": [
+    "Project Manager",
+    "Team Leader"
+  ],
+  "consoleWarningsAndErrors": []
+}

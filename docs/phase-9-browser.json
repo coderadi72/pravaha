@@ -1,0 +1,29 @@
+{
+  "result": "PASS",
+  "roles": [
+    "Admin",
+    "Project Manager",
+    "Team Leader"
+  ],
+  "scheduleImport": "CSV preview/import/version comparison/search verified",
+  "structuredReport": {
+    "quantity": 9,
+    "unit": "spools",
+    "equipment": "Crane 2",
+    "progress": 85,
+    "attachment": "real CSV bytes"
+  },
+  "pmReview": "confirmed with persisted feedback",
+  "tlFeedback": "exact feedback visible",
+  "activityTimeline": {
+    "filteredRecords": 2,
+    "confirmationProgress": 85,
+    "feedbackVerified": true
+  },
+  "adminProjectCreateSearch": true,
+  "dependencyDepth2Evidence": true,
+  "consoleWarningsOrErrors": [],
+  "responsiveCases": 16,
+  "viewportReset": true,
+  "temporaryTabsClosed": true
+}

@@ -1,0 +1,151 @@
+ M .gitignore
+ M README.md
+ M eslint.config.js
+ D index.html
+ M package-lock.json
+ M package.json
+ D public/favicon.svg
+ D public/hero-bg.jpg
+ D public/icons.svg
+ D public/pravaha-logo-vector.svg
+ D public/pravaha-logo.svg
+ D src/App.css
+ D src/App.jsx
+ D src/assets/hero.png
+ D src/assets/react.svg
+ D src/assets/vite.svg
+ D src/components/auth/AuthModal.jsx
+ D src/components/home/Analytics.jsx
+ D src/components/home/DashboardPreview.jsx
+ D src/components/home/Features.jsx
+ D src/components/home/FinalCTA.jsx
+ D src/components/home/Hero.jsx
+ D src/components/home/HowItWorks.jsx
+ D src/components/home/Intelligence.jsx
+ D src/components/home/KnowledgeBase.jsx
+ D src/components/layout/Footer.jsx
+ D src/components/layout/Navbar.jsx
+ D src/index.css
+ D src/main.jsx
+ D src/pages/HomePage.jsx
+ D src/styles/global.css
+ D vite.config.js
+?? .env.example
+?? backend/.env.example
+?? backend/README.md
+?? backend/__init__.py
+?? backend/alembic.ini
+?? backend/alembic/env.py
+?? backend/alembic/script.py.mako
+?? backend/alembic/versions/0001_postgresql_foundation.py
+?? backend/app/__init__.py
+?? backend/app/api/__init__.py
+?? backend/app/api/deps.py
+?? backend/app/api/routes/__init__.py
+?? backend/app/api/routes/activities.py
+?? backend/app/api/routes/admin.py
+?? backend/app/api/routes/auth.py
+?? backend/app/api/routes/field_updates.py
+?? backend/app/api/routes/health.py
+?? backend/app/api/routes/projects.py
+?? backend/app/api/routes/reviews.py
+?? backend/app/api/routes/teams.py
+?? backend/app/core/__init__.py
+?? backend/app/core/config.py
+?? backend/app/core/errors.py
+?? backend/app/core/middleware.py
+?? backend/app/core/permissions.py
+?? backend/app/core/security.py
+?? backend/app/db/base.py
+?? backend/app/db/repository.py
+?? backend/app/db/seed.py
+?? backend/app/db/session.py
+?? backend/app/main.py
+?? backend/app/models/__init__.py
+?? backend/app/models/entities.py
+?? backend/app/schemas/__init__.py
+?? backend/app/schemas/contracts.py
+?? backend/app/services/activity_extractor.py
+?? backend/app/services/audit_service.py
+?? backend/app/services/auth_service.py
+?? backend/app/services/confidence.py
+?? backend/app/services/field_update_service.py
+?? backend/app/services/match_evidence.py
+?? backend/app/services/matching_service.py
+?? backend/app/services/project_service.py
+?? backend/app/services/workflow_service.py
+?? backend/requirements.txt
+?? backend/tests/conftest.py
+?? backend/tests/fixtures/phase7_parity.json
+?? backend/tests/fixtures/phase7_variants.json
+?? backend/tests/test_api.py
+?? backend/tests/test_config.py
+?? backend/tests/test_database.py
+?? backend/tests/test_intelligence.py
+?? database/README.md
+?? database/legacy/README.md
+?? database/seed/demo.json
+?? docs/phase-7.1-audit.md
+?? docs/phase-7.1-before-audit.md
+?? docs/phase-7.1-canonical-data-check.json
+?? docs/phase-7.1-changed-files.txt
+?? docs/phase-7.1-consistency.json
+?? docs/phase-7.1-pm-review.jpg
+?? docs/phase-7.1-runtime.json
+?? docs/sqlite-postgres-migration.json
+?? frontend/.env.example
+?? frontend/index.html
+?? frontend/package.json
+?? frontend/public/favicon.svg
+?? frontend/public/hero-bg.jpg
+?? frontend/public/icons.svg
+?? frontend/public/pravaha-logo-vector.svg
+?? frontend/public/pravaha-logo.svg
+?? frontend/src/App.css
+?? frontend/src/App.jsx
+?? frontend/src/api/client.js
+?? frontend/src/api/config.js
+?? frontend/src/assets/hero.png
+?? frontend/src/components/auth/AuthModal.jsx
+?? frontend/src/components/home/Analytics.jsx
+?? frontend/src/components/home/DashboardPreview.jsx
+?? frontend/src/components/home/Features.jsx
+?? frontend/src/components/home/FinalCTA.jsx
+?? frontend/src/components/home/Hero.jsx
+?? frontend/src/components/home/HowItWorks.jsx
+?? frontend/src/components/home/Intelligence.jsx
+?? frontend/src/components/home/KnowledgeBase.jsx
+?? frontend/src/components/layout/Footer.jsx
+?? frontend/src/components/layout/Navbar.jsx
+?? frontend/src/components/workflow/MatchEvidencePanel.jsx
+?? frontend/src/components/workflow/MatchingHealth.jsx
+?? frontend/src/components/workflow/ProjectWorkflowWorkspace.jsx
+?? frontend/src/index.css
+?? frontend/src/main.jsx
+?? frontend/src/pages/HomePage.jsx
+?? frontend/src/pages/dashboard/AdminDashboard.jsx
+?? frontend/src/pages/dashboard/ProjectManagerDashboard.jsx
+?? frontend/src/pages/dashboard/TeamLeaderDashboard.jsx
+?? frontend/src/styles/admin-dashboard.css
+?? frontend/src/styles/global.css
+?? frontend/src/styles/project-manager-dashboard.css
+?? frontend/src/utils/date.js
+?? frontend/src/utils/workspace.js
+?? frontend/vite.config.js
+?? scripts/migrate_sqlite.py
+?? scripts/run_backend.py
+?? scripts/seed.py
+?? tests/frontend.test.js
+?? tests/legacy/README.md
+?? tests/legacy/api.test.js
+?? tests/legacy/intelligence.test.js
+?? tests/legacy/server/app.js
+?? tests/legacy/server/database.js
+?? tests/legacy/server/rateLimiter.js
+?? tests/legacy/server/security.js
+?? tests/legacy/src/data/projectWorkflowMockData.js
+?? tests/legacy/src/services/intelligence/activityExtractor.js
+?? tests/legacy/src/services/intelligence/activityMatcher.js
+?? tests/legacy/src/services/intelligence/confidence.js
+?? tests/legacy/src/services/intelligence/matchEvidence.js
+?? tests/legacy/src/services/projectWorkflowService.js

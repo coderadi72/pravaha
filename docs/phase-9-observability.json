@@ -1,0 +1,7 @@
+{
+  "result": "PASS",
+  "structuredRequests": 198,
+  "requiredFields": "present",
+  "checkedSecretValuesAbsent": true,
+  "rawRequestBodiesLogged": false
+}

@@ -1,0 +1,21 @@
+{
+  "checks": [
+    "Admin / PM / TL login",
+    "FastAPI startup and PostgreSQL health",
+    "role and project ownership; batched portfolio",
+    "submission / provisional exclusion / confirm / change / unmatch / reconfirm actuals",
+    "TL feedback / historical activity links / Admin intelligence audit",
+    "warning lifecycle acknowledgement",
+    "workflow / warning / audit / opaque session persistence after restart",
+    "logout revocation"
+  ],
+  "result": "PASS",
+  "confirmedProgress": 83,
+  "persistentUpdateId": "FU-625669c4-1712-4e9c-948a-d70dd61e9315",
+  "persistenceAfterRestart": "PASS",
+  "finalStartup": "PASS",
+  "browserConfirmationProgress": 86,
+  "browserPersistenceAfterRestart": "PASS",
+  "chronologicalMemory": "PASS",
+  "auditServers": "Stopped after successful final startup check; local PostgreSQL retained"
+}

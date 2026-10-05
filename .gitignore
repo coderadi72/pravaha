@@ -11,6 +11,29 @@ node_modules
 dist
 dist-ssr
 *.local
+.env
+.env.*
+!.env.example
+server/data/*.sqlite
+server/data/*.sqlite-shm
+server/data/*.sqlite-wal
+
+# Python, PostgreSQL tools, migration backups, and private local audit state
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.tools/
+.audit/
+.migration-backups/
+database/legacy/
+tests/legacy/
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+build/
+coverage/
+*.tmp
 
 # Editor directories and files
 .vscode/*

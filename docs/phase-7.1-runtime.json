@@ -1,0 +1,15 @@
+{
+  "checks": [
+    "Admin / PM / TL live login",
+    "health / docs / openapi",
+    "live authorization",
+    "confirm / change / unmatch / reconfirm with contribution preservation",
+    "live edit / rematching",
+    "live ambiguity / Why Not",
+    "TL feedback / Admin audit",
+    "logout revocation"
+  ],
+  "browserUpdateId": "FU-f12fa0e9-6154-4e47-915f-5d5c964925fd",
+  "confirmedProgress": 85,
+  "persistenceAfterRestart": "PASS: exact scoped workspace and active session preserved after real Uvicorn process replacement"
+}

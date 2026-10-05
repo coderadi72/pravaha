@@ -1,0 +1,1 @@
+{"rewrites":[{"source":"/((?!assets/|favicon.svg|pravaha-logo.svg|hero-bg.jpg).*)","destination":"/index.html"}]}

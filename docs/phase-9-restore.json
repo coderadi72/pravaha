@@ -1,0 +1,9 @@
+{
+  "result": "PASS",
+  "isolatedDatabase": "pravaha_phase9_restore_2025d02d",
+  "source": "private phase9-before.pgdump",
+  "allRestoredRowFingerprintsMatch": true,
+  "upgradeAndSchemaCheck": "PASS",
+  "readinessAndAllRoles": "PASS",
+  "cloudPITR": "NOT_VERIFIED"
+}

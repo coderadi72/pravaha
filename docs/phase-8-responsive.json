@@ -1,0 +1,226 @@
+[
+  {
+    "controls": [
+      {
+        "left": 1094.0125732421875,
+        "name": "Select projectGreenfield Refinery",
+        "right": 1251.2125701904297
+      },
+      {
+        "left": 1263.2125244140625,
+        "name": "Refresh intelligence",
+        "right": 1403.2000274658203
+      }
+    ],
+    "screen": "PM intelligence",
+    "scrollWidth": 1431,
+    "width": 1440
+  },
+  {
+    "controls": [
+      {
+        "left": 686.0125122070312,
+        "name": "Select projectGreenfield Refinery",
+        "right": 843.2125091552734
+      },
+      {
+        "left": 855.2125244140625,
+        "name": "Refresh intelligence",
+        "right": 995.2000274658204
+      }
+    ],
+    "screen": "PM intelligence",
+    "scrollWidth": 1015,
+    "width": 1024
+  },
+  {
+    "controls": [
+      {
+        "left": 434.0125122070313,
+        "name": "Select projectGreenfield Refinery",
+        "right": 591.2125091552734
+      },
+      {
+        "left": 603.2125244140625,
+        "name": "Refresh intelligence",
+        "right": 743.2000274658203
+      }
+    ],
+    "screen": "PM intelligence",
+    "scrollWidth": 759,
+    "width": 768
+  },
+  {
+    "controls": [
+      {
+        "left": 336.3999938964844,
+        "name": "Select projectGreenfield Refinery",
+        "right": 493.59999084472656
+      },
+      {
+        "left": 80,
+        "name": "Refresh intelligence",
+        "right": 219.9875030517578
+      }
+    ],
+    "screen": "PM intelligence",
+    "scrollWidth": 510,
+    "width": 518
+  },
+  {
+    "screen": "TL",
+    "scrollWidth": 1431,
+    "width": 1440
+  },
+  {
+    "screen": "TL",
+    "scrollWidth": 1015,
+    "width": 1024
+  },
+  {
+    "screen": "TL",
+    "scrollWidth": 759,
+    "width": 768
+  },
+  {
+    "screen": "TL",
+    "scrollWidth": 510,
+    "width": 518
+  },
+  {
+    "controls": [
+      {
+        "left": 1085.4124755859375,
+        "name": "Select projectGreenfield RefineryCoastal HighwayThermal Power PlantMetro Rail Extension",
+        "right": 1252.2124786376953
+      },
+      {
+        "left": 1264.2125244140625,
+        "name": "Refresh intelligence",
+        "right": 1404.2000274658203
+      }
+    ],
+    "screen": "Admin intelligence",
+    "scrollWidth": 1431,
+    "width": 1440
+  },
+  {
+    "controls": [
+      {
+        "left": 669.4125366210938,
+        "name": "Select projectGreenfield RefineryCoastal HighwayThermal Power PlantMetro Rail Extension",
+        "right": 836.2125396728516
+      },
+      {
+        "left": 848.2125244140625,
+        "name": "Refresh intelligence",
+        "right": 988.2000274658204
+      }
+    ],
+    "screen": "Admin intelligence",
+    "scrollWidth": 1015,
+    "width": 1024
+  },
+  {
+    "controls": [
+      {
+        "left": 565.4000244140625,
+        "name": "Select projectGreenfield RefineryCoastal HighwayThermal Power PlantMetro Rail Extension",
+        "right": 732.2000274658203
+      },
+      {
+        "left": 267,
+        "name": "Refresh intelligence",
+        "right": 406.9875030517578
+      }
+    ],
+    "screen": "Admin intelligence",
+    "scrollWidth": 759,
+    "width": 768
+  },
+  {
+    "controls": [
+      {
+        "left": 329.8000183105469,
+        "name": "Select projectGreenfield RefineryCoastal HighwayThermal Power PlantMetro Rail Extension",
+        "right": 496.6000213623047
+      },
+      {
+        "left": 75,
+        "name": "Refresh intelligence",
+        "right": 214.9875030517578
+      }
+    ],
+    "screen": "Admin intelligence",
+    "scrollWidth": 510,
+    "width": 518
+  },
+  {
+    "controls": [
+      {
+        "left": 968.0375366210938,
+        "name": "Team Leader / Supervisor",
+        "right": 1214.6875457763672
+      },
+      {
+        "left": 1222.6875,
+        "name": "Management",
+        "right": 1385.4125061035156
+      }
+    ],
+    "screen": "Home",
+    "scrollWidth": 1431,
+    "width": 1440
+  },
+  {
+    "controls": [
+      {
+        "left": 565.3500366210938,
+        "name": "Team Leader / Supervisor",
+        "right": 812.0000457763672
+      },
+      {
+        "left": 820,
+        "name": "Management",
+        "right": 982.7250061035156
+      }
+    ],
+    "screen": "Home",
+    "scrollWidth": 1015,
+    "width": 1024
+  },
+  {
+    "controls": [
+      {
+        "left": 317.5375061035156,
+        "name": "Team Leader / Supervisor",
+        "right": 564.1875152587891
+      },
+      {
+        "left": 572.1875,
+        "name": "Management",
+        "right": 734.9125061035156
+      }
+    ],
+    "screen": "Home",
+    "scrollWidth": 759,
+    "width": 768
+  },
+  {
+    "controls": [
+      {
+        "left": 232,
+        "name": "Team Leader / Supervisor",
+        "right": 386.875
+      },
+      {
+        "left": 390.875,
+        "name": "Management",
+        "right": 493.3000030517578
+      }
+    ],
+    "screen": "Home",
+    "scrollWidth": 510,
+    "width": 518
+  }
+]

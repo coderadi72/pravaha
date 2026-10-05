@@ -1,0 +1,68 @@
+{
+  "head": "0002_execution_warnings",
+  "existingRowsPreserved": true,
+  "tables": {
+    "organizations": {
+      "rows": 1,
+      "sha256": "bde2e91edee67e207c9b6c9c2b349b76e44f253d4ae4ae219546ba366c5775b5"
+    },
+    "users": {
+      "rows": 13,
+      "sha256": "19dd736987a47a790b2bb9fe8844b8b6a0f947b3ee56274a83be7e6865f0228e"
+    },
+    "projects": {
+      "rows": 4,
+      "sha256": "ae30b95c398bf853af16e89aee584737d7cd8af3777b762e2da15292e5d28ed3"
+    },
+    "project_manager_assignments": {
+      "rows": 1,
+      "sha256": "25a9c0cb7600067c9fd3e3225a6fae2b90d209950c223d9acf192427e23f5fdf"
+    },
+    "teams": {
+      "rows": 6,
+      "sha256": "419934b61437d21b541407f3a374edc887332350599b0e71df5c2d7d3772156b"
+    },
+    "team_leader_assignments": {
+      "rows": 1,
+      "sha256": "b3ca439deccb2cc468d57ff30c3d5b472be68621fc495d89101e20457a7d9ff4"
+    },
+    "schedule_activities": {
+      "rows": 10,
+      "sha256": "b86ef9f1efa9036757d778c4494844ed944514c014fc1e0b3035b4bebab83fbf"
+    },
+    "field_updates": {
+      "rows": 7,
+      "sha256": "8164ae4a99d01e1efdccb760583c5bb790fdc31554526b0d28c1d89e54aa793a"
+    },
+    "activity_matches": {
+      "rows": 7,
+      "sha256": "eed92f9198ef81e830ee8555f93f27f3fb93f974297db494fe8d3a9cba1103c1"
+    },
+    "reviews": {
+      "rows": 6,
+      "sha256": "0f04a77c24c836e5c31612a00f8d69076a341e56f8868b6e90fed2e09eab453e"
+    },
+    "review_history": {
+      "rows": 14,
+      "sha256": "d19d02bb35a1c452f2e1e03873aef3d9745cbb98be8d6b31e1ed3d362ecaeffa"
+    },
+    "schedule_activity_contributions": {
+      "rows": 1,
+      "sha256": "1a1b9ea0299a17625ccec3c6e6d85b6e6c544174a6b6c963d221e8e1af05f1c3"
+    },
+    "audit_events": {
+      "rows": 10,
+      "sha256": "bc6812efeb0bdc852512341fe218bc7d14c0ce7a3f8b6f5e8f03d6a72fa827c2"
+    },
+    "sessions": {
+      "rows": 0,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "legacy_schema_migrations": {
+      "rows": 5,
+      "sha256": "ee0f8c5f7758c9c91fe5a63f56f79a2041dfb2e2eadc3311f2bd68183b7d1542"
+    }
+  },
+  "postgresqlVersion": "18.6",
+  "schemaCheck": "PASS"
+}

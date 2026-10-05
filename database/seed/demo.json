@@ -1,0 +1,1807 @@
+{
+  "organization": {
+    "id": "ORG-OIL-DEMO",
+    "name": "Oil India Limited",
+    "dataLabel": "Seeded demonstration data"
+  },
+  "projectManagers": [
+    {
+      "id": "PM-001",
+      "name": "Priya Mehta",
+      "assignedProjectIds": [
+        "PRJ-001"
+      ],
+      "status": "Active",
+      "lastActivity": "Reviewed a schedule link · 09:30"
+    },
+    {
+      "id": "PM-002",
+      "name": "Arjun Rao",
+      "assignedProjectIds": [
+        "PRJ-002"
+      ],
+      "status": "Active",
+      "lastActivity": "Updated project forecast · 08:55"
+    },
+    {
+      "id": "PM-003",
+      "name": "Neha Singh",
+      "assignedProjectIds": [
+        "PRJ-003"
+      ],
+      "status": "Active",
+      "lastActivity": "Reviewed field update · Yesterday"
+    },
+    {
+      "id": "PM-004",
+      "name": "Vikram Patel",
+      "assignedProjectIds": [
+        "PRJ-004"
+      ],
+      "status": "Active",
+      "lastActivity": "Schedule review · Yesterday"
+    },
+    {
+      "id": "PM-005",
+      "name": "Kavita Nair",
+      "assignedProjectIds": [],
+      "status": "Available",
+      "lastActivity": "No recent activity"
+    },
+    {
+      "id": "PM-006",
+      "name": "Sanjay Das",
+      "assignedProjectIds": [],
+      "status": "Available",
+      "lastActivity": "No recent activity"
+    }
+  ],
+  "teamLeaders": [
+    {
+      "id": "TL-001",
+      "name": "Ravi Singh",
+      "teamId": "TEAM-PIP-A",
+      "projectId": "PRJ-001",
+      "status": "Active"
+    },
+    {
+      "id": "TL-002",
+      "name": "Amit Verma",
+      "teamId": "TEAM-CIV-A",
+      "projectId": "PRJ-001",
+      "status": "Active"
+    },
+    {
+      "id": "TL-003",
+      "name": "Sanjay Kumar",
+      "teamId": "TEAM-ELE-A",
+      "projectId": "PRJ-001",
+      "status": "Active"
+    },
+    {
+      "id": "TL-004",
+      "name": "Meera Joshi",
+      "teamId": "TEAM-CIV-B",
+      "projectId": "PRJ-002",
+      "status": "Active"
+    },
+    {
+      "id": "TL-005",
+      "name": "Deepak Sahu",
+      "teamId": "TEAM-MEC-A",
+      "projectId": "PRJ-003",
+      "status": "Active"
+    },
+    {
+      "id": "TL-006",
+      "name": "Pooja Menon",
+      "teamId": null,
+      "projectId": null,
+      "status": "Available"
+    }
+  ],
+  "teams": [
+    {
+      "id": "TEAM-PIP-A",
+      "name": "Piping Team A",
+      "projectId": "PRJ-001",
+      "site": "Process Unit — Block 3",
+      "teamLeaderId": "TL-001",
+      "members": 12,
+      "active": 9,
+      "onLeave": 1,
+      "other": 2,
+      "status": "Active"
+    },
+    {
+      "id": "TEAM-CIV-A",
+      "name": "Civil Team",
+      "projectId": "PRJ-001",
+      "site": "Foundation Area — F-12",
+      "teamLeaderId": "TL-002",
+      "members": 15,
+      "active": 12,
+      "onLeave": 2,
+      "other": 1,
+      "status": "Active"
+    },
+    {
+      "id": "TEAM-ELE-A",
+      "name": "Electrical Team",
+      "projectId": "PRJ-001",
+      "site": "Process Unit — Block 3",
+      "teamLeaderId": "TL-003",
+      "members": 10,
+      "active": 8,
+      "onLeave": 1,
+      "other": 1,
+      "status": "Active"
+    },
+    {
+      "id": "TEAM-CIV-B",
+      "name": "Highway Civil Team",
+      "projectId": "PRJ-002",
+      "site": "Coastal Package 2",
+      "teamLeaderId": "TL-004",
+      "members": 18,
+      "active": 15,
+      "onLeave": 1,
+      "other": 2,
+      "status": "Active"
+    },
+    {
+      "id": "TEAM-MEC-A",
+      "name": "Mechanical Team",
+      "projectId": "PRJ-003",
+      "site": "Turbine Hall",
+      "teamLeaderId": "TL-005",
+      "members": 14,
+      "active": 11,
+      "onLeave": 1,
+      "other": 2,
+      "status": "Active"
+    },
+    {
+      "id": "TEAM-HSE-A",
+      "name": "HSE & Site Operations Team",
+      "projectId": null,
+      "site": "Site designation pending",
+      "teamLeaderId": "TL-006",
+      "members": 8,
+      "active": 7,
+      "onLeave": 1,
+      "other": 0,
+      "status": "Available"
+    }
+  ],
+  "projects": [
+    {
+      "id": "PRJ-001",
+      "name": "Greenfield Refinery",
+      "location": "Gujarat, India",
+      "status": "At Risk",
+      "projectManagerId": "PM-001",
+      "teamIds": [
+        "TEAM-PIP-A",
+        "TEAM-CIV-A",
+        "TEAM-ELE-A"
+      ],
+      "activityCount": 1245,
+      "progress": 64,
+      "plannedProgress": 72,
+      "actualProgress": 64,
+      "disciplines": [
+        "Civil",
+        "Piping",
+        "Static / Rotating Equipment",
+        "Electrical",
+        "Instrumentation",
+        "HSE"
+      ]
+    },
+    {
+      "id": "PRJ-002",
+      "name": "Coastal Highway",
+      "location": "Maharashtra, India",
+      "status": "At Risk",
+      "projectManagerId": "PM-002",
+      "teamIds": [
+        "TEAM-CIV-B"
+      ],
+      "activityCount": 856,
+      "progress": 54,
+      "plannedProgress": 62,
+      "actualProgress": 54,
+      "disciplines": [
+        "Civil",
+        "Electrical",
+        "HSE"
+      ]
+    },
+    {
+      "id": "PRJ-003",
+      "name": "Thermal Power Plant",
+      "location": "Chhattisgarh, India",
+      "status": "On Track",
+      "projectManagerId": "PM-003",
+      "teamIds": [
+        "TEAM-MEC-A"
+      ],
+      "activityCount": 2134,
+      "progress": 91,
+      "plannedProgress": 89,
+      "actualProgress": 91,
+      "disciplines": [
+        "Civil",
+        "Piping",
+        "Electrical",
+        "Instrumentation"
+      ]
+    },
+    {
+      "id": "PRJ-004",
+      "name": "Metro Rail Extension",
+      "location": "Karnataka, India",
+      "status": "On Track",
+      "projectManagerId": "PM-004",
+      "teamIds": [],
+      "activityCount": 642,
+      "progress": 67,
+      "plannedProgress": 65,
+      "actualProgress": 67,
+      "disciplines": [
+        "Civil",
+        "Electrical",
+        "HSE"
+      ]
+    }
+  ],
+  "organizationActivity": [
+    {
+      "id": "ORG-ACT-001",
+      "action": "Field update submitted in PRJ-001",
+      "actor": "Ravi Singh · Team Leader",
+      "occurredAt": "2026-10-03T09:12:00+05:30",
+      "type": "field"
+    },
+    {
+      "id": "ORG-ACT-002",
+      "action": "Activity reviewed by Project Manager",
+      "actor": "Priya Mehta",
+      "occurredAt": "2026-10-03T09:30:00+05:30",
+      "type": "review"
+    },
+    {
+      "id": "ORG-ACT-003",
+      "action": "Team Leader assigned to Piping Team A",
+      "actor": "Organization setup",
+      "occurredAt": "2026-10-02T15:10:00+05:30",
+      "type": "assignment"
+    },
+    {
+      "id": "ORG-ACT-004",
+      "action": "Project Manager assigned to Greenfield Refinery",
+      "actor": "Organization setup",
+      "occurredAt": "2026-10-01T11:20:00+05:30",
+      "type": "assignment"
+    }
+  ],
+  "scheduleActivities": [
+    {
+      "id": "SA-1024",
+      "projectId": "PRJ-001",
+      "teamId": "TEAM-PIP-A",
+      "activityId": "PIP-247-06",
+      "activityName": "Erect Line 247-XX spool sections",
+      "level": "L6",
+      "discipline": "Piping",
+      "location": "Unit 4 / Rack B",
+      "plannedStart": "2026-09-28",
+      "plannedStartTime": "08:00",
+      "plannedEnd": "2026-10-05",
+      "plannedEndTime": "14:00",
+      "status": "In Progress",
+      "actualStart": "2026-10-03T08:10:00+05:30",
+      "actualEnd": null,
+      "progress": 65,
+      "blockedReason": "",
+      "observation": ""
+    },
+    {
+      "id": "SA-1031",
+      "projectId": "PRJ-001",
+      "activityId": "ELE-B3-14",
+      "activityName": "Install cable tray — Block 3",
+      "level": "L6",
+      "discipline": "Electrical",
+      "plannedStart": "2026-09-25",
+      "plannedEnd": "2026-10-06",
+      "status": "In Progress",
+      "actualStart": "2026-09-28",
+      "actualEnd": null
+    },
+    {
+      "id": "SA-1032",
+      "projectId": "PRJ-001",
+      "activityId": "ELE-B3-15",
+      "activityName": "Install cable tray — Block 3 North",
+      "level": "L6",
+      "discipline": "Electrical",
+      "plannedStart": "2026-09-29",
+      "plannedEnd": "2026-10-08",
+      "status": "Not Started",
+      "actualStart": null,
+      "actualEnd": null
+    },
+    {
+      "id": "SA-1066",
+      "projectId": "PRJ-001",
+      "activityId": "MEC-S12-04",
+      "activityName": "Valve installation — Skid-12",
+      "level": "L6",
+      "discipline": "Static / Rotating Equipment",
+      "plannedStart": "2026-09-29",
+      "plannedEnd": "2026-10-04",
+      "status": "In Progress",
+      "actualStart": "2026-10-02",
+      "actualEnd": null
+    },
+    {
+      "id": "SA-1090",
+      "projectId": "PRJ-001",
+      "activityId": "ROT-K4-02",
+      "activityName": "Align compressor K-4",
+      "level": "L5",
+      "discipline": "Static / Rotating Equipment",
+      "plannedStart": "2026-09-27",
+      "plannedEnd": "2026-10-03",
+      "status": "At Risk",
+      "actualStart": null,
+      "actualEnd": null
+    },
+    {
+      "id": "SA-1102",
+      "projectId": "PRJ-001",
+      "activityId": "CIV-F12-08",
+      "activityName": "Concrete foundation F-12",
+      "level": "L6",
+      "discipline": "Civil",
+      "plannedStart": "2026-09-30",
+      "plannedStartTime": "07:00",
+      "plannedEnd": "2026-10-03",
+      "plannedEndTime": "14:00",
+      "status": "In Progress",
+      "actualStart": "2026-10-01",
+      "actualEnd": null
+    },
+    {
+      "id": "SA-1140",
+      "projectId": "PRJ-001",
+      "activityId": "CIV-AB-19",
+      "activityName": "Install support steel — Area B",
+      "level": "L6",
+      "discipline": "Civil",
+      "plannedStart": "2026-10-01",
+      "plannedEnd": "2026-10-07",
+      "status": "Not Started",
+      "actualStart": null,
+      "actualEnd": null
+    },
+    {
+      "id": "TL-2002",
+      "projectId": "PRJ-001",
+      "teamId": "TEAM-PIP-A",
+      "activityId": "PIP-247-08",
+      "activityName": "Fit-up Line 247-XX joints",
+      "level": "L6",
+      "discipline": "Piping",
+      "location": "Unit 4 / Rack B",
+      "plannedStart": "2026-10-03",
+      "plannedStartTime": "09:00",
+      "plannedEnd": "2026-10-03",
+      "plannedEndTime": "15:30",
+      "status": "In Progress",
+      "actualStart": "2026-10-03T09:05:00+05:30",
+      "actualEnd": null,
+      "progress": 35,
+      "blockedReason": "",
+      "observation": ""
+    },
+    {
+      "id": "TL-2003",
+      "projectId": "PRJ-001",
+      "teamId": "TEAM-PIP-A",
+      "activityId": "MEC-S12-05",
+      "activityName": "Install valve — Skid-12",
+      "level": "L6",
+      "discipline": "Static Equipment",
+      "location": "Skid-12",
+      "plannedStart": "2026-10-03",
+      "plannedStartTime": "10:00",
+      "plannedEnd": "2026-10-03",
+      "plannedEndTime": "16:00",
+      "status": "Blocked",
+      "actualStart": null,
+      "actualEnd": null,
+      "progress": 0,
+      "blockedReason": "Material not available",
+      "observation": ""
+    },
+    {
+      "id": "TL-2004",
+      "projectId": "PRJ-001",
+      "teamId": "TEAM-PIP-A",
+      "activityId": "PIP-247-09",
+      "activityName": "Pressure test preparation",
+      "level": "L5",
+      "discipline": "Piping",
+      "location": "Unit 4 / Rack C",
+      "plannedStart": "2026-10-03",
+      "plannedStartTime": "13:00",
+      "plannedEnd": "2026-10-03",
+      "plannedEndTime": "17:00",
+      "status": "Not Started",
+      "actualStart": null,
+      "actualEnd": null,
+      "progress": 0,
+      "blockedReason": "",
+      "observation": ""
+    }
+  ],
+  "fieldUpdates": [
+    {
+      "id": "FU-1042",
+      "projectId": "PRJ-001",
+      "source": "Daily Progress Report",
+      "rawText": "Erected spool for Line 247-XX",
+      "discipline": "Piping",
+      "location": "Package A",
+      "submittedBy": "Ravi Singh · Site Engineer",
+      "submittedAt": "2026-10-03T09:12:00+05:30",
+      "extractedActivity": {
+        "activityName": "Spool Erection",
+        "discipline": "Piping",
+        "location": null,
+        "locationSource": "not_reported",
+        "identifiers": [
+          "Line 247-XX"
+        ],
+        "action": "erected",
+        "actionFamily": "erect",
+        "workType": "pipe",
+        "progress": null,
+        "completion": false,
+        "blocked": false,
+        "dateReferences": []
+      },
+      "actualStart": "2026-10-03T08:10:00+05:30",
+      "actualEnd": null,
+      "teamId": "TEAM-PIP-A",
+      "activity": "Erect Line 247-XX spool sections",
+      "progress": 65,
+      "observation": "",
+      "status": "Reviewed",
+      "reviewStatus": "reviewed",
+      "matchStatus": "matched",
+      "confidence": 90,
+      "pmFeedback": "Confirmed against Line 247-XX L6 work package.",
+      "reviewHistory": [
+        {
+          "actor": "Ravi Singh · Site Engineer",
+          "action": "Field update submitted",
+          "occurredAt": "2026-10-03T09:12:00+05:30"
+        },
+        {
+          "actor": "PRAVAHA demo matcher",
+          "action": "Suggested L6 · Erect Line 247-XX spool sections · 94% confidence",
+          "occurredAt": "2026-10-03T09:12:00+05:30"
+        },
+        {
+          "actor": "Priya Mehta · Project Manager",
+          "action": "Confirmed against Line 247-XX L6 work package.",
+          "occurredAt": "2026-10-03T09:30:00+05:30"
+        }
+      ]
+    },
+    {
+      "id": "FU-1043",
+      "projectId": "PRJ-001",
+      "source": "Supervisor Daily Report",
+      "rawText": "Cable tray installation completed in Block 3",
+      "discipline": "Electrical",
+      "location": "Block 3",
+      "submittedBy": "Anita Rao · Supervisor",
+      "submittedAt": "2026-10-03T08:48:00+05:30",
+      "extractedActivity": {
+        "activityName": "Cable Tray Installation",
+        "discipline": "Electrical",
+        "location": "Block 3",
+        "locationSource": "text",
+        "identifiers": [],
+        "action": "completed",
+        "actionFamily": "install",
+        "workType": "cable tray",
+        "progress": 100,
+        "completion": true,
+        "blocked": false,
+        "dateReferences": []
+      },
+      "actualStart": "2026-10-02",
+      "actualEnd": "2026-10-03",
+      "teamId": null,
+      "activity": "Install cable tray — Block 3",
+      "progress": 100,
+      "observation": "",
+      "status": "Submitted",
+      "reviewStatus": "needs_review",
+      "matchStatus": "low_confidence",
+      "confidence": 100,
+      "pmFeedback": "",
+      "reviewHistory": [
+        {
+          "actor": "Anita Rao · Supervisor",
+          "action": "Field update submitted",
+          "occurredAt": "2026-10-03T08:48:00+05:30"
+        },
+        {
+          "actor": "PRAVAHA demo matcher",
+          "action": "Suggested L6 · Install cable tray — Block 3 · 67% confidence",
+          "occurredAt": "2026-10-03T08:48:00+05:30"
+        }
+      ]
+    },
+    {
+      "id": "FU-1044",
+      "projectId": "PRJ-001",
+      "source": "Scanned Site Diary",
+      "rawText": "Equipment alignment completed",
+      "discipline": "Static / Rotating Equipment",
+      "location": "Compressor area",
+      "submittedBy": "Mohan Das · Field Engineer",
+      "submittedAt": "2026-10-03T08:16:00+05:30",
+      "extractedActivity": {
+        "activityName": "Equipment Alignment",
+        "discipline": "Unclassified",
+        "location": null,
+        "locationSource": "not_reported",
+        "identifiers": [],
+        "action": "completed",
+        "actionFamily": "align",
+        "workType": "equipment",
+        "progress": 100,
+        "completion": true,
+        "blocked": false,
+        "dateReferences": []
+      },
+      "actualStart": null,
+      "actualEnd": "2026-10-03",
+      "teamId": null,
+      "activity": "Equipment alignment",
+      "progress": 100,
+      "observation": "",
+      "status": "Submitted",
+      "reviewStatus": "unmatched",
+      "matchStatus": "unmatched",
+      "confidence": 57,
+      "pmFeedback": "",
+      "reviewHistory": [
+        {
+          "actor": "Mohan Das · Field Engineer",
+          "action": "Field update submitted",
+          "occurredAt": "2026-10-03T08:16:00+05:30"
+        }
+      ]
+    },
+    {
+      "id": "FU-1045",
+      "projectId": "PRJ-001",
+      "source": "Supervisor Update",
+      "rawText": "Valve installed at Skid-12",
+      "discipline": "Static / Rotating Equipment",
+      "location": "Skid-12",
+      "submittedBy": "S. Kumar · Supervisor",
+      "submittedAt": "2026-10-02T17:40:00+05:30",
+      "extractedActivity": {
+        "activityName": "Valve Installation",
+        "discipline": "Piping",
+        "location": "Skid-12",
+        "locationSource": "text",
+        "identifiers": [],
+        "action": "installed",
+        "actionFamily": "install",
+        "workType": "valve",
+        "progress": null,
+        "completion": false,
+        "blocked": false,
+        "dateReferences": []
+      },
+      "actualStart": "2026-10-02",
+      "actualEnd": null,
+      "teamId": null,
+      "activity": "Valve installation — Skid-12",
+      "progress": 65,
+      "observation": "",
+      "status": "Submitted",
+      "reviewStatus": "needs_review",
+      "matchStatus": "review_required",
+      "confidence": 50,
+      "pmFeedback": "",
+      "reviewHistory": [
+        {
+          "actor": "S. Kumar · Supervisor",
+          "action": "Field update submitted",
+          "occurredAt": "2026-10-02T17:40:00+05:30"
+        },
+        {
+          "actor": "PRAVAHA demo matcher",
+          "action": "Suggested L6 · Valve installation — Skid-12 · 78% confidence",
+          "occurredAt": "2026-10-02T17:40:00+05:30"
+        }
+      ]
+    },
+    {
+      "id": "FU-1046",
+      "projectId": "PRJ-001",
+      "source": "Discipline Spreadsheet",
+      "rawText": "F-12 concrete pour finished; completion date entered as 02 Oct. Site diary notes curing began 03 Oct.",
+      "discipline": "Civil",
+      "location": "Area B",
+      "submittedBy": "Neha Patel · Planner",
+      "submittedAt": "2026-10-02T16:22:00+05:30",
+      "extractedActivity": {
+        "activityName": "Foundation Concreting",
+        "discipline": "Civil",
+        "location": null,
+        "locationSource": "not_reported",
+        "identifiers": [
+          "F-12"
+        ],
+        "action": "pour",
+        "actionFamily": "pour",
+        "workType": "foundation",
+        "progress": 100,
+        "completion": true,
+        "blocked": false,
+        "dateReferences": [
+          "02 oct",
+          "03 oct"
+        ]
+      },
+      "actualStart": "2026-10-01",
+      "actualEnd": "2026-10-02",
+      "teamId": null,
+      "activity": "Concrete foundation F-12",
+      "progress": 100,
+      "observation": "",
+      "status": "Submitted",
+      "reviewStatus": "needs_review",
+      "matchStatus": "review_required",
+      "confidence": 100,
+      "pmFeedback": "",
+      "reviewHistory": [
+        {
+          "actor": "Neha Patel · Planner",
+          "action": "Field update submitted",
+          "occurredAt": "2026-10-02T16:22:00+05:30"
+        },
+        {
+          "actor": "PRAVAHA demo matcher",
+          "action": "Suggested L6 · Concrete foundation F-12 · 81% confidence",
+          "occurredAt": "2026-10-02T16:22:00+05:30"
+        }
+      ]
+    },
+    {
+      "id": "FU-1047",
+      "projectId": "PRJ-001",
+      "source": "Daily Progress Report",
+      "rawText": "Support steel progressing in Area B",
+      "discipline": "Civil",
+      "location": "Area B",
+      "submittedBy": "Ravi Singh · Site Engineer",
+      "submittedAt": "2026-10-02T15:05:00+05:30",
+      "extractedActivity": {
+        "activityName": "Support Steel Installation",
+        "discipline": "Civil",
+        "location": "Area B",
+        "locationSource": "text",
+        "identifiers": [],
+        "action": "progressing",
+        "actionFamily": "install",
+        "workType": "steel",
+        "progress": null,
+        "completion": false,
+        "blocked": false,
+        "dateReferences": []
+      },
+      "actualStart": null,
+      "actualEnd": null,
+      "teamId": null,
+      "activity": "Install support steel — Area B",
+      "progress": 0,
+      "observation": "",
+      "status": "Submitted",
+      "reviewStatus": "needs_review",
+      "matchStatus": "review_required",
+      "confidence": 100,
+      "pmFeedback": "",
+      "reviewHistory": [
+        {
+          "actor": "Ravi Singh · Site Engineer",
+          "action": "Field update submitted",
+          "occurredAt": "2026-10-02T15:05:00+05:30"
+        },
+        {
+          "actor": "PRAVAHA demo matcher",
+          "action": "Suggested L6 · Install support steel — Area B · 73% confidence",
+          "occurredAt": "2026-10-02T15:05:00+05:30"
+        }
+      ]
+    },
+    {
+      "id": "FU-1048",
+      "projectId": "PRJ-001",
+      "source": "Discipline Spreadsheet",
+      "rawText": "Cable tray installation completed in Block 3",
+      "discipline": "Electrical",
+      "location": "Block 3",
+      "submittedBy": "Anita Rao · Supervisor",
+      "submittedAt": "2026-10-03T09:03:00+05:30",
+      "extractedActivity": {
+        "activityName": "Cable Tray Installation",
+        "discipline": "Electrical",
+        "location": "Block 3",
+        "locationSource": "text",
+        "identifiers": [],
+        "action": "completed",
+        "actionFamily": "install",
+        "workType": "cable tray",
+        "progress": 100,
+        "completion": true,
+        "blocked": false,
+        "dateReferences": []
+      },
+      "actualStart": "2026-10-02",
+      "actualEnd": "2026-10-03",
+      "teamId": null,
+      "activity": "Install cable tray — Block 3",
+      "progress": 100,
+      "observation": "",
+      "status": "Submitted",
+      "reviewStatus": "needs_review",
+      "matchStatus": "review_required",
+      "confidence": 100,
+      "pmFeedback": "",
+      "reviewHistory": [
+        {
+          "actor": "Anita Rao · Supervisor",
+          "action": "Field update submitted",
+          "occurredAt": "2026-10-03T09:03:00+05:30"
+        },
+        {
+          "actor": "PRAVAHA demo matcher",
+          "action": "Suggested L6 · Install cable tray — Block 3 · 71% confidence",
+          "occurredAt": "2026-10-03T09:03:00+05:30"
+        }
+      ]
+    }
+  ],
+  "activityMatches": [
+    {
+      "fieldUpdateId": "FU-1042",
+      "scheduleActivityId": "SA-1024",
+      "confidence": 90,
+      "matchStatus": "matched",
+      "matchedBy": "Priya Mehta · Project Manager",
+      "reviewedAt": "2026-10-03T09:30:00+05:30",
+      "reviewComment": "Confirmed against Line 247-XX L6 work package.",
+      "alternatives": [],
+      "confidenceLevel": "high",
+      "candidates": [
+        {
+          "scheduleActivityId": "SA-1024",
+          "activityId": "PIP-247-06",
+          "activityName": "Erect Line 247-XX spool sections",
+          "level": "L6",
+          "discipline": "Piping",
+          "location": "Unit 4 / Rack B",
+          "score": 90,
+          "confidenceLevel": "high",
+          "evidence": [
+            {
+              "signal": "activity",
+              "outcome": "support",
+              "text": "Activity wording is compatible: Spool Erection ↔ Erect Line 247-XX spool sections."
+            },
+            {
+              "signal": "identifier",
+              "outcome": "support",
+              "text": "Identifier matched: Line 247-XX."
+            },
+            {
+              "signal": "discipline",
+              "outcome": "support",
+              "text": "Compatible discipline: Piping ↔ Piping."
+            },
+            {
+              "signal": "location",
+              "outcome": "missing",
+              "text": "Location evidence is incomplete; no location agreement is assumed."
+            },
+            {
+              "signal": "keywords",
+              "outcome": "support",
+              "text": "Shared work terms: erect, spool, xx."
+            },
+            {
+              "signal": "conflicts",
+              "outcome": "support",
+              "text": "No major conflicting signals were detected in the available information."
+            }
+          ],
+          "candidateRank": 1
+        },
+        {
+          "scheduleActivityId": "TL-2002",
+          "activityId": "PIP-247-08",
+          "activityName": "Fit-up Line 247-XX joints",
+          "level": "L6",
+          "discipline": "Piping",
+          "location": "Unit 4 / Rack B",
+          "score": 70,
+          "confidenceLevel": "medium",
+          "evidence": [
+            {
+              "signal": "activity",
+              "outcome": "partial",
+              "text": "Activity wording has limited overlap with Fit-up Line 247-XX joints."
+            },
+            {
+              "signal": "identifier",
+              "outcome": "support",
+              "text": "Identifier matched: Line 247-XX."
+            },
+            {
+              "signal": "discipline",
+              "outcome": "support",
+              "text": "Compatible discipline: Piping ↔ Piping."
+            },
+            {
+              "signal": "location",
+              "outcome": "missing",
+              "text": "Location evidence is incomplete; no location agreement is assumed."
+            },
+            {
+              "signal": "keywords",
+              "outcome": "support",
+              "text": "Shared work terms: xx."
+            },
+            {
+              "signal": "conflicts",
+              "outcome": "support",
+              "text": "No major conflicting signals were detected in the available information."
+            }
+          ],
+          "candidateRank": 2
+        },
+        {
+          "scheduleActivityId": "TL-2004",
+          "activityId": "PIP-247-09",
+          "activityName": "Pressure test preparation",
+          "level": "L5",
+          "discipline": "Piping",
+          "location": "Unit 4 / Rack C",
+          "score": 37,
+          "confidenceLevel": "low",
+          "evidence": [
+            {
+              "signal": "activity",
+              "outcome": "partial",
+              "text": "Activity wording has limited overlap with Pressure test preparation."
+            },
+            {
+              "signal": "identifier",
+              "outcome": "missing",
+              "text": "The schedule activity does not contain the reported identifier."
+            },
+            {
+              "signal": "discipline",
+              "outcome": "support",
+              "text": "Compatible discipline: Piping ↔ Piping."
+            },
+            {
+              "signal": "location",
+              "outcome": "missing",
+              "text": "Location evidence is incomplete; no location agreement is assumed."
+            },
+            {
+              "signal": "conflicts",
+              "outcome": "support",
+              "text": "No major conflicting signals were detected in the available information."
+            }
+          ],
+          "candidateRank": 3
+        }
+      ],
+      "recommendedMatchId": "SA-1024",
+      "recommendationStatus": "suggested",
+      "evidence": [
+        {
+          "signal": "activity",
+          "outcome": "support",
+          "text": "Activity wording is compatible: Spool Erection ↔ Erect Line 247-XX spool sections."
+        },
+        {
+          "signal": "identifier",
+          "outcome": "support",
+          "text": "Identifier matched: Line 247-XX."
+        },
+        {
+          "signal": "discipline",
+          "outcome": "support",
+          "text": "Compatible discipline: Piping ↔ Piping."
+        },
+        {
+          "signal": "location",
+          "outcome": "missing",
+          "text": "Location evidence is incomplete; no location agreement is assumed."
+        },
+        {
+          "signal": "keywords",
+          "outcome": "support",
+          "text": "Shared work terms: erect, spool, xx."
+        },
+        {
+          "signal": "conflicts",
+          "outcome": "support",
+          "text": "No major conflicting signals were detected in the available information."
+        }
+      ],
+      "matchReason": "Activity wording is compatible: Spool Erection ↔ Erect Line 247-XX spool sections. Identifier matched: Line 247-XX. Compatible discipline: Piping ↔ Piping. Shared work terms: erect, spool, xx.",
+      "unmatchReason": "A recommendation requires PM confirmation before it becomes a confirmed schedule link.",
+      "matcherVersion": "matcher-v1",
+      "generatedAt": "2026-10-03T22:39:26.681Z"
+    },
+    {
+      "fieldUpdateId": "FU-1043",
+      "scheduleActivityId": "SA-1031",
+      "confidence": 100,
+      "matchStatus": "low_confidence",
+      "matchedBy": null,
+      "reviewedAt": null,
+      "reviewComment": null,
+      "alternatives": [
+        "SA-1032"
+      ],
+      "confidenceLevel": "high",
+      "candidates": [
+        {
+          "scheduleActivityId": "SA-1031",
+          "activityId": "ELE-B3-14",
+          "activityName": "Install cable tray — Block 3",
+          "level": "L6",
+          "discipline": "Electrical",
+          "location": "Block 3",
+          "score": 100,
+          "confidenceLevel": "high",
+          "evidence": [
+            {
+              "signal": "activity",
+              "outcome": "support",
+              "text": "Activity wording is compatible: Cable Tray Installation ↔ Install cable tray — Block 3."
+            },
+            {
+              "signal": "identifier",
+              "outcome": "missing",
+              "text": "No unique identifier was reported in the field text."
+            },
+            {
+              "signal": "discipline",
+              "outcome": "support",
+              "text": "Compatible discipline: Electrical ↔ Electrical."
+            },
+            {
+              "signal": "location",
+              "outcome": "support",
+              "text": "Location matched: Block 3."
+            },
+            {
+              "signal": "keywords",
+              "outcome": "support",
+              "text": "Shared work terms: cable, tray, block."
+            },
+            {
+              "signal": "conflicts",
+              "outcome": "support",
+              "text": "No major conflicting signals were detected in the available information."
+            }
+          ],
+          "candidateRank": 1
+        },
+        {
+          "scheduleActivityId": "SA-1032",
+          "activityId": "ELE-B3-15",
+          "activityName": "Install cable tray — Block 3 North",
+          "level": "L6",
+          "discipline": "Electrical",
+          "location": "Block 3 North",
+          "score": 93,
+          "confidenceLevel": "high",
+          "evidence": [
+            {
+              "signal": "activity",
+              "outcome": "support",
+              "text": "Activity wording is compatible: Cable Tray Installation ↔ Install cable tray — Block 3 North."
+            },
+            {
+              "signal": "identifier",
+              "outcome": "missing",
+              "text": "No unique identifier was reported in the field text."
+            },
+            {
+              "signal": "discipline",
+              "outcome": "support",
+              "text": "Compatible discipline: Electrical ↔ Electrical."
+            },
+            {
+              "signal": "location",
+              "outcome": "partial",
+              "text": "Location partly agrees: Block 3 ↔ Block 3 North; verify the work area."
+            },
+            {
+              "signal": "keywords",
+              "outcome": "support",
+              "text": "Shared work terms: cable, tray, block."
+            },
+            {
+              "signal": "conflicts",
+              "outcome": "support",
+              "text": "No major conflicting signals were detected in the available information."
+            }
+          ],
+          "candidateRank": 2
+        }
+      ],
+      "recommendedMatchId": "SA-1031",
+      "recommendationStatus": "suggested",
+      "evidence": [
+        {
+          "signal": "activity",
+          "outcome": "support",
+          "text": "Activity wording is compatible: Cable Tray Installation ↔ Install cable tray — Block 3."
+        },
+        {
+          "signal": "identifier",
+          "outcome": "missing",
+          "text": "No unique identifier was reported in the field text."
+        },
+        {
+          "signal": "discipline",
+          "outcome": "support",
+          "text": "Compatible discipline: Electrical ↔ Electrical."
+        },
+        {
+          "signal": "location",
+          "outcome": "support",
+          "text": "Location matched: Block 3."
+        },
+        {
+          "signal": "keywords",
+          "outcome": "support",
+          "text": "Shared work terms: cable, tray, block."
+        },
+        {
+          "signal": "conflicts",
+          "outcome": "support",
+          "text": "No major conflicting signals were detected in the available information."
+        }
+      ],
+      "matchReason": "Activity wording is compatible: Cable Tray Installation ↔ Install cable tray — Block 3. Compatible discipline: Electrical ↔ Electrical. Location matched: Block 3. Shared work terms: cable, tray, block.",
+      "unmatchReason": "A recommendation requires PM confirmation before it becomes a confirmed schedule link.",
+      "matcherVersion": "matcher-v1",
+      "generatedAt": "2026-10-03T22:39:26.681Z"
+    },
+    {
+      "fieldUpdateId": "FU-1044",
+      "scheduleActivityId": null,
+      "confidence": 57,
+      "matchStatus": "unmatched",
+      "matchedBy": null,
+      "reviewedAt": null,
+      "reviewComment": null,
+      "alternatives": [
+        "SA-1090"
+      ],
+      "confidenceLevel": "low",
+      "candidates": [
+        {
+          "scheduleActivityId": "SA-1090",
+          "activityId": "ROT-K4-02",
+          "activityName": "Align compressor K-4",
+          "level": "L5",
+          "discipline": "Static / Rotating Equipment",
+          "location": null,
+          "score": 57,
+          "confidenceLevel": "low",
+          "evidence": [
+            {
+              "signal": "activity",
+              "outcome": "support",
+              "text": "Activity wording is compatible: Equipment Alignment ↔ Align compressor K-4."
+            },
+            {
+              "signal": "identifier",
+              "outcome": "missing",
+              "text": "No unique identifier was reported in the field text."
+            },
+            {
+              "signal": "discipline",
+              "outcome": "missing",
+              "text": "Discipline could not be compared."
+            },
+            {
+              "signal": "location",
+              "outcome": "missing",
+              "text": "Location evidence is incomplete; no location agreement is assumed."
+            },
+            {
+              "signal": "keywords",
+              "outcome": "support",
+              "text": "Shared work terms: align."
+            },
+            {
+              "signal": "conflicts",
+              "outcome": "support",
+              "text": "No major conflicting signals were detected in the available information."
+            }
+          ],
+          "candidateRank": 1
+        }
+      ],
+      "recommendedMatchId": null,
+      "recommendationStatus": "unmatched",
+      "evidence": [
+        {
+          "signal": "activity",
+          "outcome": "support",
+          "text": "Activity wording is compatible: Equipment Alignment ↔ Align compressor K-4."
+        },
+        {
+          "signal": "identifier",
+          "outcome": "missing",
+          "text": "No unique identifier was reported in the field text."
+        },
+        {
+          "signal": "discipline",
+          "outcome": "missing",
+          "text": "Discipline could not be compared."
+        },
+        {
+          "signal": "location",
+          "outcome": "missing",
+          "text": "Location evidence is incomplete; no location agreement is assumed."
+        },
+        {
+          "signal": "keywords",
+          "outcome": "support",
+          "text": "Shared work terms: align."
+        },
+        {
+          "signal": "conflicts",
+          "outcome": "support",
+          "text": "No major conflicting signals were detected in the available information."
+        }
+      ],
+      "matchReason": "Activity wording is compatible: Equipment Alignment ↔ Align compressor K-4. Shared work terms: align.",
+      "unmatchReason": "The strongest candidate is below the 60% recommendation threshold. More activity, identifier, or location information is needed. Select an activity or request more information.",
+      "matcherVersion": "matcher-v1",
+      "generatedAt": "2026-10-03T22:39:26.681Z"
+    },
+    {
+      "fieldUpdateId": "FU-1045",
+      "scheduleActivityId": "SA-1066",
+      "confidence": 50,
+      "matchStatus": "review_required",
+      "matchedBy": null,
+      "reviewedAt": null,
+      "reviewComment": null,
+      "alternatives": [],
+      "confidenceLevel": "low",
+      "candidates": [
+        {
+          "scheduleActivityId": "SA-1066",
+          "activityId": "MEC-S12-04",
+          "activityName": "Valve installation — Skid-12",
+          "level": "L6",
+          "discipline": "Static / Rotating Equipment",
+          "location": "Skid-12",
+          "score": 50,
+          "confidenceLevel": "low",
+          "evidence": [
+            {
+              "signal": "activity",
+              "outcome": "support",
+              "text": "Activity wording is compatible: Valve Installation ↔ Valve installation — Skid-12."
+            },
+            {
+              "signal": "identifier",
+              "outcome": "missing",
+              "text": "No unique identifier was reported in the field text."
+            },
+            {
+              "signal": "discipline",
+              "outcome": "conflict",
+              "text": "Discipline differs: Piping ↔ Static / Rotating Equipment."
+            },
+            {
+              "signal": "location",
+              "outcome": "support",
+              "text": "Location matched: Skid-12."
+            },
+            {
+              "signal": "keywords",
+              "outcome": "support",
+              "text": "Shared work terms: valve, skid."
+            }
+          ],
+          "candidateRank": 1
+        },
+        {
+          "scheduleActivityId": "TL-2003",
+          "activityId": "MEC-S12-05",
+          "activityName": "Install valve — Skid-12",
+          "level": "L6",
+          "discipline": "Static Equipment",
+          "location": "Skid-12",
+          "score": 50,
+          "confidenceLevel": "low",
+          "evidence": [
+            {
+              "signal": "activity",
+              "outcome": "support",
+              "text": "Activity wording is compatible: Valve Installation ↔ Install valve — Skid-12."
+            },
+            {
+              "signal": "identifier",
+              "outcome": "missing",
+              "text": "No unique identifier was reported in the field text."
+            },
+            {
+              "signal": "discipline",
+              "outcome": "conflict",
+              "text": "Discipline differs: Piping ↔ Static Equipment."
+            },
+            {
+              "signal": "location",
+              "outcome": "support",
+              "text": "Location matched: Skid-12."
+            },
+            {
+              "signal": "keywords",
+              "outcome": "support",
+              "text": "Shared work terms: valve, skid."
+            }
+          ],
+          "candidateRank": 2
+        }
+      ],
+      "recommendedMatchId": null,
+      "recommendationStatus": "unmatched",
+      "evidence": [
+        {
+          "signal": "activity",
+          "outcome": "support",
+          "text": "Activity wording is compatible: Valve Installation ↔ Valve installation — Skid-12."
+        },
+        {
+          "signal": "identifier",
+          "outcome": "missing",
+          "text": "No unique identifier was reported in the field text."
+        },
+        {
+          "signal": "discipline",
+          "outcome": "conflict",
+          "text": "Discipline differs: Piping ↔ Static / Rotating Equipment."
+        },
+        {
+          "signal": "location",
+          "outcome": "support",
+          "text": "Location matched: Skid-12."
+        },
+        {
+          "signal": "keywords",
+          "outcome": "support",
+          "text": "Shared work terms: valve, skid."
+        }
+      ],
+      "matchReason": "Activity wording is compatible: Valve Installation ↔ Valve installation — Skid-12. Location matched: Skid-12. Shared work terms: valve, skid.",
+      "unmatchReason": "The strongest candidate is below the 60% recommendation threshold. Discipline differs: Piping ↔ Static / Rotating Equipment. Select an activity or request more information.",
+      "matcherVersion": "matcher-v1",
+      "generatedAt": "2026-10-03T22:39:26.681Z"
+    },
+    {
+      "fieldUpdateId": "FU-1046",
+      "scheduleActivityId": "SA-1102",
+      "confidence": 100,
+      "matchStatus": "review_required",
+      "matchedBy": null,
+      "reviewedAt": null,
+      "reviewComment": null,
+      "alternatives": [],
+      "confidenceLevel": "high",
+      "candidates": [
+        {
+          "scheduleActivityId": "SA-1102",
+          "activityId": "CIV-F12-08",
+          "activityName": "Concrete foundation F-12",
+          "level": "L6",
+          "discipline": "Civil",
+          "location": null,
+          "score": 100,
+          "confidenceLevel": "high",
+          "evidence": [
+            {
+              "signal": "activity",
+              "outcome": "support",
+              "text": "Activity wording is compatible: Foundation Concreting ↔ Concrete foundation F-12."
+            },
+            {
+              "signal": "identifier",
+              "outcome": "support",
+              "text": "Identifier matched: F-12."
+            },
+            {
+              "signal": "discipline",
+              "outcome": "support",
+              "text": "Compatible discipline: Civil ↔ Civil."
+            },
+            {
+              "signal": "location",
+              "outcome": "missing",
+              "text": "Location evidence is incomplete; no location agreement is assumed."
+            },
+            {
+              "signal": "keywords",
+              "outcome": "support",
+              "text": "Shared work terms: f, concrete."
+            },
+            {
+              "signal": "conflicts",
+              "outcome": "support",
+              "text": "No major conflicting signals were detected in the available information."
+            }
+          ],
+          "candidateRank": 1
+        }
+      ],
+      "recommendedMatchId": "SA-1102",
+      "recommendationStatus": "suggested",
+      "evidence": [
+        {
+          "signal": "activity",
+          "outcome": "support",
+          "text": "Activity wording is compatible: Foundation Concreting ↔ Concrete foundation F-12."
+        },
+        {
+          "signal": "identifier",
+          "outcome": "support",
+          "text": "Identifier matched: F-12."
+        },
+        {
+          "signal": "discipline",
+          "outcome": "support",
+          "text": "Compatible discipline: Civil ↔ Civil."
+        },
+        {
+          "signal": "location",
+          "outcome": "missing",
+          "text": "Location evidence is incomplete; no location agreement is assumed."
+        },
+        {
+          "signal": "keywords",
+          "outcome": "support",
+          "text": "Shared work terms: f, concrete."
+        },
+        {
+          "signal": "conflicts",
+          "outcome": "support",
+          "text": "No major conflicting signals were detected in the available information."
+        }
+      ],
+      "matchReason": "Activity wording is compatible: Foundation Concreting ↔ Concrete foundation F-12. Identifier matched: F-12. Compatible discipline: Civil ↔ Civil. Shared work terms: f, concrete.",
+      "unmatchReason": "A recommendation requires PM confirmation before it becomes a confirmed schedule link.",
+      "matcherVersion": "matcher-v1",
+      "generatedAt": "2026-10-03T22:39:26.681Z"
+    },
+    {
+      "fieldUpdateId": "FU-1047",
+      "scheduleActivityId": "SA-1140",
+      "confidence": 100,
+      "matchStatus": "review_required",
+      "matchedBy": null,
+      "reviewedAt": null,
+      "reviewComment": null,
+      "alternatives": [],
+      "confidenceLevel": "high",
+      "candidates": [
+        {
+          "scheduleActivityId": "SA-1140",
+          "activityId": "CIV-AB-19",
+          "activityName": "Install support steel — Area B",
+          "level": "L6",
+          "discipline": "Civil",
+          "location": "Area B",
+          "score": 100,
+          "confidenceLevel": "high",
+          "evidence": [
+            {
+              "signal": "activity",
+              "outcome": "support",
+              "text": "Activity wording is compatible: Support Steel Installation ↔ Install support steel — Area B."
+            },
+            {
+              "signal": "identifier",
+              "outcome": "missing",
+              "text": "No unique identifier was reported in the field text."
+            },
+            {
+              "signal": "discipline",
+              "outcome": "support",
+              "text": "Compatible discipline: Civil ↔ Civil."
+            },
+            {
+              "signal": "location",
+              "outcome": "support",
+              "text": "Location matched: Area B."
+            },
+            {
+              "signal": "keywords",
+              "outcome": "support",
+              "text": "Shared work terms: support, steel, area, b."
+            },
+            {
+              "signal": "conflicts",
+              "outcome": "support",
+              "text": "No major conflicting signals were detected in the available information."
+            }
+          ],
+          "candidateRank": 1
+        }
+      ],
+      "recommendedMatchId": "SA-1140",
+      "recommendationStatus": "suggested",
+      "evidence": [
+        {
+          "signal": "activity",
+          "outcome": "support",
+          "text": "Activity wording is compatible: Support Steel Installation ↔ Install support steel — Area B."
+        },
+        {
+          "signal": "identifier",
+          "outcome": "missing",
+          "text": "No unique identifier was reported in the field text."
+        },
+        {
+          "signal": "discipline",
+          "outcome": "support",
+          "text": "Compatible discipline: Civil ↔ Civil."
+        },
+        {
+          "signal": "location",
+          "outcome": "support",
+          "text": "Location matched: Area B."
+        },
+        {
+          "signal": "keywords",
+          "outcome": "support",
+          "text": "Shared work terms: support, steel, area, b."
+        },
+        {
+          "signal": "conflicts",
+          "outcome": "support",
+          "text": "No major conflicting signals were detected in the available information."
+        }
+      ],
+      "matchReason": "Activity wording is compatible: Support Steel Installation ↔ Install support steel — Area B. Compatible discipline: Civil ↔ Civil. Location matched: Area B. Shared work terms: support, steel, area, b.",
+      "unmatchReason": "A recommendation requires PM confirmation before it becomes a confirmed schedule link.",
+      "matcherVersion": "matcher-v1",
+      "generatedAt": "2026-10-03T22:39:26.681Z"
+    },
+    {
+      "fieldUpdateId": "FU-1048",
+      "scheduleActivityId": "SA-1031",
+      "confidence": 100,
+      "matchStatus": "review_required",
+      "matchedBy": null,
+      "reviewedAt": null,
+      "reviewComment": null,
+      "alternatives": [],
+      "confidenceLevel": "high",
+      "candidates": [
+        {
+          "scheduleActivityId": "SA-1031",
+          "activityId": "ELE-B3-14",
+          "activityName": "Install cable tray — Block 3",
+          "level": "L6",
+          "discipline": "Electrical",
+          "location": "Block 3",
+          "score": 100,
+          "confidenceLevel": "high",
+          "evidence": [
+            {
+              "signal": "activity",
+              "outcome": "support",
+              "text": "Activity wording is compatible: Cable Tray Installation ↔ Install cable tray — Block 3."
+            },
+            {
+              "signal": "identifier",
+              "outcome": "missing",
+              "text": "No unique identifier was reported in the field text."
+            },
+            {
+              "signal": "discipline",
+              "outcome": "support",
+              "text": "Compatible discipline: Electrical ↔ Electrical."
+            },
+            {
+              "signal": "location",
+              "outcome": "support",
+              "text": "Location matched: Block 3."
+            },
+            {
+              "signal": "keywords",
+              "outcome": "support",
+              "text": "Shared work terms: cable, tray, block."
+            },
+            {
+              "signal": "conflicts",
+              "outcome": "support",
+              "text": "No major conflicting signals were detected in the available information."
+            }
+          ],
+          "candidateRank": 1
+        },
+        {
+          "scheduleActivityId": "SA-1032",
+          "activityId": "ELE-B3-15",
+          "activityName": "Install cable tray — Block 3 North",
+          "level": "L6",
+          "discipline": "Electrical",
+          "location": "Block 3 North",
+          "score": 93,
+          "confidenceLevel": "high",
+          "evidence": [
+            {
+              "signal": "activity",
+              "outcome": "support",
+              "text": "Activity wording is compatible: Cable Tray Installation ↔ Install cable tray — Block 3 North."
+            },
+            {
+              "signal": "identifier",
+              "outcome": "missing",
+              "text": "No unique identifier was reported in the field text."
+            },
+            {
+              "signal": "discipline",
+              "outcome": "support",
+              "text": "Compatible discipline: Electrical ↔ Electrical."
+            },
+            {
+              "signal": "location",
+              "outcome": "partial",
+              "text": "Location partly agrees: Block 3 ↔ Block 3 North; verify the work area."
+            },
+            {
+              "signal": "keywords",
+              "outcome": "support",
+              "text": "Shared work terms: cable, tray, block."
+            },
+            {
+              "signal": "conflicts",
+              "outcome": "support",
+              "text": "No major conflicting signals were detected in the available information."
+            }
+          ],
+          "candidateRank": 2
+        }
+      ],
+      "recommendedMatchId": "SA-1031",
+      "recommendationStatus": "suggested",
+      "evidence": [
+        {
+          "signal": "activity",
+          "outcome": "support",
+          "text": "Activity wording is compatible: Cable Tray Installation ↔ Install cable tray — Block 3."
+        },
+        {
+          "signal": "identifier",
+          "outcome": "missing",
+          "text": "No unique identifier was reported in the field text."
+        },
+        {
+          "signal": "discipline",
+          "outcome": "support",
+          "text": "Compatible discipline: Electrical ↔ Electrical."
+        },
+        {
+          "signal": "location",
+          "outcome": "support",
+          "text": "Location matched: Block 3."
+        },
+        {
+          "signal": "keywords",
+          "outcome": "support",
+          "text": "Shared work terms: cable, tray, block."
+        },
+        {
+          "signal": "conflicts",
+          "outcome": "support",
+          "text": "No major conflicting signals were detected in the available information."
+        }
+      ],
+      "matchReason": "Activity wording is compatible: Cable Tray Installation ↔ Install cable tray — Block 3. Compatible discipline: Electrical ↔ Electrical. Location matched: Block 3. Shared work terms: cable, tray, block.",
+      "unmatchReason": "A recommendation requires PM confirmation before it becomes a confirmed schedule link.",
+      "matcherVersion": "matcher-v1",
+      "generatedAt": "2026-10-03T22:39:26.681Z"
+    }
+  ],
+  "reviewItems": [
+    {
+      "id": "REV-2043",
+      "fieldUpdateId": "FU-1043",
+      "reason": "Low confidence: two Block 3 schedule activities are plausible.",
+      "confidence": 67,
+      "status": "open",
+      "reviewer": null,
+      "reviewedAt": null,
+      "category": "Low confidence"
+    },
+    {
+      "id": "REV-2044",
+      "fieldUpdateId": "FU-1044",
+      "reason": "No direct L5/L6 schedule link was identified.",
+      "confidence": 41,
+      "status": "open",
+      "reviewer": null,
+      "reviewedAt": null,
+      "category": "Unmatched activity"
+    },
+    {
+      "id": "REV-2045",
+      "fieldUpdateId": "FU-1045",
+      "reason": "Confirm the field description refers to valve installation, not hydrotest.",
+      "confidence": 78,
+      "status": "open",
+      "reviewer": null,
+      "reviewedAt": null,
+      "category": "Description conflict"
+    },
+    {
+      "id": "REV-2046",
+      "fieldUpdateId": "FU-1046",
+      "reason": "Completion date differs between the spreadsheet and site diary.",
+      "confidence": 81,
+      "status": "open",
+      "reviewer": null,
+      "reviewedAt": null,
+      "category": "Conflicting dates"
+    },
+    {
+      "id": "REV-2047",
+      "fieldUpdateId": "FU-1047",
+      "reason": "Actual start and end dates are missing from the field report.",
+      "confidence": 73,
+      "status": "open",
+      "reviewer": null,
+      "reviewedAt": null,
+      "category": "Missing dates"
+    },
+    {
+      "id": "REV-2048",
+      "fieldUpdateId": "FU-1048",
+      "reason": "This description may duplicate update FU-1043 from the same work area.",
+      "confidence": 71,
+      "status": "open",
+      "reviewer": null,
+      "reviewedAt": null,
+      "category": "Possible duplicate"
+    }
+  ],
+  "scheduleActivityBaselines": {
+    "SA-1024": {
+      "actualStart": null,
+      "actualEnd": null,
+      "progress": 0,
+      "status": "Not Started",
+      "blockedReason": "",
+      "observation": ""
+    },
+    "SA-1031": {
+      "actualStart": "2026-09-28",
+      "actualEnd": null,
+      "progress": null,
+      "status": "In Progress",
+      "blockedReason": null,
+      "observation": null
+    },
+    "SA-1032": {
+      "actualStart": null,
+      "actualEnd": null,
+      "progress": null,
+      "status": "Not Started",
+      "blockedReason": null,
+      "observation": null
+    },
+    "SA-1066": {
+      "actualStart": "2026-10-02",
+      "actualEnd": null,
+      "progress": null,
+      "status": "In Progress",
+      "blockedReason": null,
+      "observation": null
+    },
+    "SA-1090": {
+      "actualStart": null,
+      "actualEnd": null,
+      "progress": null,
+      "status": "At Risk",
+      "blockedReason": null,
+      "observation": null
+    },
+    "SA-1102": {
+      "actualStart": "2026-10-01",
+      "actualEnd": null,
+      "progress": null,
+      "status": "In Progress",
+      "blockedReason": null,
+      "observation": null
+    },
+    "SA-1140": {
+      "actualStart": null,
+      "actualEnd": null,
+      "progress": null,
+      "status": "Not Started",
+      "blockedReason": null,
+      "observation": null
+    },
+    "TL-2002": {
+      "actualStart": "2026-10-03T09:05:00+05:30",
+      "actualEnd": null,
+      "progress": 35,
+      "status": "In Progress",
+      "blockedReason": "",
+      "observation": ""
+    },
+    "TL-2003": {
+      "actualStart": null,
+      "actualEnd": null,
+      "progress": 0,
+      "status": "Blocked",
+      "blockedReason": "Material not available",
+      "observation": ""
+    },
+    "TL-2004": {
+      "actualStart": null,
+      "actualEnd": null,
+      "progress": 0,
+      "status": "Not Started",
+      "blockedReason": "",
+      "observation": ""
+    }
+  },
+  "scheduleActivityContributions": [
+    {
+      "fieldUpdateId": "FU-1042",
+      "scheduleActivityId": "SA-1024",
+      "recordedAt": "2026-10-03T09:30:00+05:30",
+      "state": {
+        "actualStart": "2026-10-03T08:10:00+05:30",
+        "actualEnd": null,
+        "progress": 65,
+        "status": "In Progress",
+        "blockedReason": "",
+        "observation": ""
+      }
+    }
+  ]
+}

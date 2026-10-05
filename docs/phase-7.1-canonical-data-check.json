@@ -1,0 +1,20 @@
+{
+  "database": "pravaha_phase71",
+  "fullContentComparison": "PASS",
+  "tables": {
+    "organizations": 1,
+    "users": 13,
+    "projects": 4,
+    "project_manager_assignments": 1,
+    "teams": 6,
+    "schedule_activities": 10,
+    "field_updates": 7,
+    "activity_matches": 7,
+    "reviews": 6,
+    "review_history": 14,
+    "schedule_activity_contributions": 1,
+    "audit_events": 10,
+    "sessions": 6,
+    "schema_migrations": 5
+  }
+}

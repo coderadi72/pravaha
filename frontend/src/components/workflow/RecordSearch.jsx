@@ -1,0 +1,9 @@
+import UiText from "../../ui/UiText.jsx";
+import { useState } from "react";
+import { ingestionApi } from "../../api/client.js";
+import "../../styles/ingestion.css";
+export default function RecordSearch() {
+  const [query, setQuery] = useState(""), [kind, setKind] = useState("all"), [result, setResult] = useState(null), [error, setError] = useState(""), [busy, setBusy] = useState(false);
+  async function search(offset = 0) { setBusy(true); setError(""); try { setResult(await ingestionApi.search(query, kind, offset)); } catch (e) { setError(e.message); } finally { setBusy(false); } }
+  return <section className="ingestion-panel" aria-label="Project record search"><h2><UiText>Search project records</UiText></h2><form onSubmit={e => { e.preventDefault(); search(); }}><div className="ingestion-fields"><label><UiText>Search records</UiText><input maxLength={120} value={query} onChange={e => setQuery(e.target.value)} /></label><label><UiText>Record type</UiText><select value={kind} onChange={e => setKind(e.target.value)}>{["all", "projects", "activities", "field-updates", "versions", "warnings", "audit", "memory"].map(k => <option key={k}>{k}</option>)}</select></label></div><button disabled={busy}><UiText>Search</UiText></button></form>{error && <p role="alert">{error}</p>}{result && <><p>{result.total}<UiText> permitted records</UiText></p>{result.items.map(r => <p key={`${r.kind}:${r.id}`}><strong>{r.title}</strong><small>{r.kind} · {r.projectId ?? "Organization"} · {r.id}</small></p>)}<nav aria-label="Search pages"><button disabled={!result.offset || busy} onClick={() => search(Math.max(0, result.offset - 20))}><UiText>Previous results</UiText></button><button disabled={result.offset + 20 >= result.total || busy} onClick={() => search(result.offset + 20)}><UiText>Next results</UiText></button></nav></>}</section>;
+}

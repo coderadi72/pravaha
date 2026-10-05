@@ -1,0 +1,18 @@
+{
+  "privateCredentialScan": "PASS",
+  "backendSyntaxScan": "PASS",
+  "singleProductionBackend": "PASS",
+  "postgresqlOnlyRuntime": "PASS",
+  "canonicalDataConsistency": {
+    "crossProjectMatch": 0,
+    "crossProjectContribution": 0,
+    "disabledPM": 0,
+    "disabledTL": 0,
+    "staleWarningProject": 0,
+    "crossOrgTeam": 0,
+    "crossOrgPM": 0
+  },
+  "foreignKeys": 26,
+  "alembicHead": "0002_execution_warnings",
+  "runtimeDependencies": "pip check: PASS; no new dependencies added"
+}
